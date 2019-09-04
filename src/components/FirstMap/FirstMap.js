@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { StaticMap } from "react-map-gl";
 import { H3HexagonLayer } from "@deck.gl/geo-layers";
 import DeckGL from "@deck.gl/react";
-import concatData from "../../dummyData/concatData.json";
+import { jan95, jan00, jan05 } from "../../dummyData/concatData";
 import YearSelector from "../YearSelector/YearSelector"
 
 const MAPBOX_TOKEN =
@@ -24,11 +24,11 @@ const INITIAL_VIEW_STATE = {
 class FirstMap extends Component {
 	state = {
 		location: "",
-		year: ""
+		year: 0
 	};
 	componentDidMount() {
 		this.setState({
-			location: concatData
+			location: jan95,
 		});
 	}
 	// extractedData = () => {
@@ -70,19 +70,14 @@ class FirstMap extends Component {
 	// 	);
 	// };
 	layerRendering = () => {
-		console.log(
-			"this,state.location",
-			this.state.location,
-			"map",
-			Object.values(this.state.location)
-		);
-
+		const stateLocation = this.state.location;
+		const valuesOfState = stateLocation[0]
 		return [
 			new H3HexagonLayer({
 				id: "h3-hexagon-layer",
-				data: Object.values(this.state.location),
+				data:  valuesOfState && Object.values(valuesOfState),
 				pickable: true,
-				wireframe: false,
+				wireframe: true,
 				filled: true,
 				extruded: true,
 				elevationScale: 1,
@@ -96,9 +91,9 @@ class FirstMap extends Component {
 
 	yearOnChange = e => {
 		const data = {
-			1: concatData,
-			2: "newData",
-			3: "newData2"
+			0: jan95,
+			1: jan00,
+			2: jan05,
 		}
 		this.setState({
 			location: data[e.currentTarget.value],
@@ -107,7 +102,8 @@ class FirstMap extends Component {
 	};
 
 	render() {
-		console.log("this.state", this.state);
+		const thing = this.state.location[0];
+		console.log("thing", thing && Object.values(thing));
 
 		return (
 			<div
@@ -117,7 +113,7 @@ class FirstMap extends Component {
 					alignItems: "center"
 				}}
 			>
-				<YearSelector yearOnChange={this.yearOnChange} />
+				<YearSelector yearOnChange={this.yearOnChange} year={this.state.year}/>
 				<DeckGL
 					layers={this.layerRendering()}
 					initialViewState={INITIAL_VIEW_STATE}
