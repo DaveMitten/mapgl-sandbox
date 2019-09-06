@@ -96,17 +96,17 @@ class FirstMap extends Component {
 	// newData = testData;
 
 	// newData = eval(testData);
-	_layer = new HexagonLayer({
-		id: "hexagon-layer",
-		data: testData,
-		pickable: true,
-		extruded: true,
-		radius: 200,
-		elevationScale: 100,
-		// upperPercentile: 100,
-		// getElevationValue: d =>
-		getPosition: d => d.COORDINATES
-	});
+	// _layer = new HexagonLayer({
+	// 	id: "hexagon-layer",
+	// 	data: testData,
+	// 	pickable: true,
+	// 	extruded: true,
+	// 	radius: 200,
+	// 	elevationScale: 100,
+	// 	// upperPercentile: 100,
+	// 	// getElevationValue: d =>
+	// 	getPosition: d => d.COORDINATES
+	// });
 
 	yearOnChange = e => {
 		const data = {
@@ -121,7 +121,6 @@ class FirstMap extends Component {
 	};
 
 	render() {
-		// console.log('newData', this.newData, 'testData', testData)
 		console.log("testData", testData);
 
 		return (
