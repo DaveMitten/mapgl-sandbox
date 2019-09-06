@@ -23,7 +23,6 @@ class YearSelector extends Component {
 						Jan 95
 					</label>
 				</div>
-
 				<div>
 					<label>
 						<input
@@ -35,7 +34,6 @@ class YearSelector extends Component {
 						Jan 00
 					</label>
 				</div>
-
 				<div>
 					<label>
 						<input

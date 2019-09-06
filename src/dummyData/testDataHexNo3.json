@@ -1,0 +1,5555 @@
+[
+    {
+        "ADDRESS": "939 ELLIS ST",
+        "RACKS": 2,
+        "SPACES": 4,
+        "COORDINATES": [
+            -122.42177834,
+            37.78346622
+        ]
+    },
+    {
+        "ADDRESS": "1380 HOWARD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.414411,
+            37.774458
+        ]
+    },
+    {
+        "ADDRESS": "1195 OAK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.438887,
+            37.772737
+        ]
+    },
+    {
+        "ADDRESS": "1387 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42019976,
+            37.75087429
+        ]
+    },
+    {
+        "ADDRESS": "180 TOWNSEND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.392606,
+            37.779369
+        ]
+    },
+    {
+        "ADDRESS": "247 FILLMORE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.43065953,
+            37.77185018
+        ]
+    },
+    {
+        "ADDRESS": "247 FILLMORE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.43065953,
+            37.77185018
+        ]
+    },
+    {
+        "ADDRESS": "2690 MISSION ST",
+        "RACKS": 2,
+        "SPACES": 4,
+        "COORDINATES": [
+            -122.418974,
+            37.754029
+        ]
+    },
+    {
+        "ADDRESS": "400 MCALLISTER ST",
+        "RACKS": 7,
+        "SPACES": 14,
+        "COORDINATES": [
+            -122.419014,
+            37.780519
+        ]
+    },
+    {
+        "ADDRESS": "680 08TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.404719,
+            37.770128
+        ]
+    },
+    {
+        "ADDRESS": "101 TOWNSEND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.390466,
+            37.780226
+        ]
+    },
+    {
+        "ADDRESS": "1186 FOLSOM ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.409866,
+            37.77547
+        ]
+    },
+    {
+        "ADDRESS": "1301 SANSOME ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.403298,
+            37.802327
+        ]
+    },
+    {
+        "ADDRESS": "1304 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420935,
+            37.751851
+        ]
+    },
+    {
+        "ADDRESS": "1380 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420834,
+            37.750802
+        ]
+    },
+    {
+        "ADDRESS": "1601 HOWARD ST",
+        "RACKS": 2,
+        "SPACES": 4,
+        "COORDINATES": [
+            -122.416789,
+            37.771394
+        ]
+    },
+    {
+        "ADDRESS": "1700 FILBERT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.427674,
+            37.799281
+        ]
+    },
+    {
+        "ADDRESS": "1700 OCEAN AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.460192,
+            37.724988
+        ]
+    },
+    {
+        "ADDRESS": "201 GUERRERO ST",
+        "RACKS": 2,
+        "SPACES": 4,
+        "COORDINATES": [
+            -122.424167,
+            37.767853
+        ]
+    },
+    {
+        "ADDRESS": "2500 16TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.411968,
+            37.76582
+        ]
+    },
+    {
+        "ADDRESS": "2525 16TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.411897,
+            37.765121
+        ]
+    },
+    {
+        "ADDRESS": "300 GOUGH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.422666,
+            37.776104
+        ]
+    },
+    {
+        "ADDRESS": "3232 16TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.424904,
+            37.76499
+        ]
+    },
+    {
+        "ADDRESS": "425 DIVISADERO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.437875,
+            37.773364
+        ]
+    },
+    {
+        "ADDRESS": "426 BRANNAN ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.395232,
+            37.779654
+        ]
+    },
+    {
+        "ADDRESS": "499 GUERRERO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42373,
+            37.763298
+        ]
+    },
+    {
+        "ADDRESS": "501 DOLORES ST",
+        "RACKS": 2,
+        "SPACES": 4,
+        "COORDINATES": [
+            -122.425711,
+            37.76132
+        ]
+    },
+    {
+        "ADDRESS": "647 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42145,
+            37.762535
+        ]
+    },
+    {
+        "ADDRESS": "762 FULTON ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.429259,
+            37.778282
+        ]
+    },
+    {
+        "ADDRESS": "1 DR CARLTON B GOODLETT PL",
+        "RACKS": 2,
+        "SPACES": 4,
+        "COORDINATES": [
+            -122.41903,
+            37.778846
+        ]
+    },
+    {
+        "ADDRESS": "1000 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.410989,
+            37.782044
+        ]
+    },
+    {
+        "ADDRESS": "1026 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421372,
+            37.756417
+        ]
+    },
+    {
+        "ADDRESS": "117 06TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.408056,
+            37.780857
+        ]
+    },
+    {
+        "ADDRESS": "117 06TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.408056,
+            37.780857
+        ]
+    },
+    {
+        "ADDRESS": "1200 IRVING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.471168,
+            37.764349
+        ]
+    },
+    {
+        "ADDRESS": "1201 OCEAN AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.455509,
+            37.723447
+        ]
+    },
+    {
+        "ADDRESS": "1231 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.414791,
+            37.777947
+        ]
+    },
+    {
+        "ADDRESS": "1235 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.4135214,
+            37.77666033
+        ]
+    },
+    {
+        "ADDRESS": "130 SUTTER ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40304,
+            37.790237
+        ]
+    },
+    {
+        "ADDRESS": "1318 07TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.463815,
+            37.76373
+        ]
+    },
+    {
+        "ADDRESS": "1318 07TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.463815,
+            37.76373
+        ]
+    },
+    {
+        "ADDRESS": "1320 07TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.463815,
+            37.76373
+        ]
+    },
+    {
+        "ADDRESS": "1320 07TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.463815,
+            37.76373
+        ]
+    },
+    {
+        "ADDRESS": "1340 09TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.46593,
+            37.763293
+        ]
+    },
+    {
+        "ADDRESS": "1340 09TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.46593,
+            37.763293
+        ]
+    },
+    {
+        "ADDRESS": "1395 MENDELL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.389127,
+            37.734384
+        ]
+    },
+    {
+        "ADDRESS": "1395 MENDELL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.389127,
+            37.734384
+        ]
+    },
+    {
+        "ADDRESS": "145 09TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.413826,
+            37.775858
+        ]
+    },
+    {
+        "ADDRESS": "145 09TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.413826,
+            37.775858
+        ]
+    },
+    {
+        "ADDRESS": "1455 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.417466,
+            37.775228
+        ]
+    },
+    {
+        "ADDRESS": "2043 FILLMORE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.434008,
+            37.788466
+        ]
+    },
+    {
+        "ADDRESS": "2238 GEARY BLVD",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.440626,
+            37.783512
+        ]
+    },
+    {
+        "ADDRESS": "2275 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.432062,
+            37.764555
+        ]
+    },
+    {
+        "ADDRESS": "2282 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.432827,
+            37.76489
+        ]
+    },
+    {
+        "ADDRESS": "2282 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.432827,
+            37.76489
+        ]
+    },
+    {
+        "ADDRESS": "2301 FOLSOM ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.414516,
+            37.760396
+        ]
+    },
+    {
+        "ADDRESS": "2496 03RD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.38856125,
+            37.75815494
+        ]
+    },
+    {
+        "ADDRESS": "301 08TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.409386,
+            37.774976
+        ]
+    },
+    {
+        "ADDRESS": "301 08TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.409386,
+            37.774976
+        ]
+    },
+    {
+        "ADDRESS": "3083 16TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421328,
+            37.764682
+        ]
+    },
+    {
+        "ADDRESS": "3083 16TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421328,
+            37.764682
+        ]
+    },
+    {
+        "ADDRESS": "3150 18TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.414256,
+            37.762699
+        ]
+    },
+    {
+        "ADDRESS": "3180 18TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.414601,
+            37.762385
+        ]
+    },
+    {
+        "ADDRESS": "333 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.397517,
+            37.791778
+        ]
+    },
+    {
+        "ADDRESS": "3409 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420943,
+            37.75194
+        ]
+    },
+    {
+        "ADDRESS": "3409 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420943,
+            37.75194
+        ]
+    },
+    {
+        "ADDRESS": "351 09TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.468039,
+            37.781861
+        ]
+    },
+    {
+        "ADDRESS": "398 12TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41342,
+            37.769982
+        ]
+    },
+    {
+        "ADDRESS": "401 CLEMENT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.463512,
+            37.782742
+        ]
+    },
+    {
+        "ADDRESS": "4304 18TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.437405,
+            37.760935
+        ]
+    },
+    {
+        "ADDRESS": "445 CHURCH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.428205,
+            37.763754
+        ]
+    },
+    {
+        "ADDRESS": "445 CHURCH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.428205,
+            37.763754
+        ]
+    },
+    {
+        "ADDRESS": "448 CORTLAND AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.416718,
+            37.738893
+        ]
+    },
+    {
+        "ADDRESS": "500 04TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.398131,
+            37.779293
+        ]
+    },
+    {
+        "ADDRESS": "500 DE HARO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40177521,
+            37.7633505
+        ]
+    },
+    {
+        "ADDRESS": "500 DE HARO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.401775,
+            37.763351
+        ]
+    },
+    {
+        "ADDRESS": "522 JONES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41283565,
+            37.78606899
+        ]
+    },
+    {
+        "ADDRESS": "555 02ND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.392559,
+            37.782556
+        ]
+    },
+    {
+        "ADDRESS": "560 03RD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.395095,
+            37.780411
+        ]
+    },
+    {
+        "ADDRESS": "577 02ND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.392143,
+            37.782263
+        ]
+    },
+    {
+        "ADDRESS": "625 DOUGLASS ST",
+        "RACKS": 3,
+        "SPACES": 6,
+        "COORDINATES": [
+            -122.438193,
+            37.753682
+        ]
+    },
+    {
+        "ADDRESS": "65 09TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.414948,
+            37.77677
+        ]
+    },
+    {
+        "ADDRESS": "699 08TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.403546,
+            37.771022
+        ]
+    },
+    {
+        "ADDRESS": "700 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.433945,
+            37.771879
+        ]
+    },
+    {
+        "ADDRESS": "700 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.433945,
+            37.771879
+        ]
+    },
+    {
+        "ADDRESS": "701 BAY SHORE BLVD",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40613868,
+            37.73597064
+        ]
+    },
+    {
+        "ADDRESS": "720 COLUMBUS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.411851,
+            37.801752
+        ]
+    },
+    {
+        "ADDRESS": "734 BRYANT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.401256,
+            37.777377
+        ]
+    },
+    {
+        "ADDRESS": "780 STANYAN ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.452882,
+            37.767783
+        ]
+    },
+    {
+        "ADDRESS": "79 NEW MONTGOMERY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.400535,
+            37.78789
+        ]
+    },
+    {
+        "ADDRESS": "806 SOUTH VAN NESS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.417279,
+            37.760199
+        ]
+    },
+    {
+        "ADDRESS": "85 02ND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.399884,
+            37.788457
+        ]
+    },
+    {
+        "ADDRESS": "850 BRYANT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.404389,
+            37.775398
+        ]
+    },
+    {
+        "ADDRESS": "865 MARKET ST",
+        "RACKS": 2,
+        "SPACES": 4,
+        "COORDINATES": [
+            -122.407158,
+            37.783947
+        ]
+    },
+    {
+        "ADDRESS": "901 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.408041,
+            37.78347
+        ]
+    },
+    {
+        "ADDRESS": "None",
+        "RACKS": 12,
+        "SPACES": 12,
+        "COORDINATES": [
+            -122.39740712,
+            37.77052985
+        ]
+    },
+    {
+        "ADDRESS": "100 CARL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.450275,
+            37.7659
+        ]
+    },
+    {
+        "ADDRESS": "100 CHENERY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.425819,
+            37.739678
+        ]
+    },
+    {
+        "ADDRESS": "1017 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.410418,
+            37.781561
+        ]
+    },
+    {
+        "ADDRESS": "105 WEST PORTAL AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.466836,
+            37.739447
+        ]
+    },
+    {
+        "ADDRESS": "1050 MCALLISTER ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.429321,
+            37.779421
+        ]
+    },
+    {
+        "ADDRESS": "1051 OCEAN AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.453909,
+            37.723166
+        ]
+    },
+    {
+        "ADDRESS": "1052 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.411323,
+            37.781883
+        ]
+    },
+    {
+        "ADDRESS": "106 WEST PORTAL AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.46748,
+            37.739698
+        ]
+    },
+    {
+        "ADDRESS": "1062 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421303,
+            37.755789
+        ]
+    },
+    {
+        "ADDRESS": "1077 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42062889,
+            37.75577619
+        ]
+    },
+    {
+        "ADDRESS": "1085 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42063839,
+            37.75564965
+        ]
+    },
+    {
+        "ADDRESS": "1099 FILLMORE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.432295,
+            37.779234
+        ]
+    },
+    {
+        "ADDRESS": "1101 TARAVAL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.478151,
+            37.742786
+        ]
+    },
+    {
+        "ADDRESS": "1109 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420653,
+            37.755158
+        ]
+    },
+    {
+        "ADDRESS": "111 ELLIS ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.408067,
+            37.785306
+        ]
+    },
+    {
+        "ADDRESS": "1112 IRVING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.469917,
+            37.764026
+        ]
+    },
+    {
+        "ADDRESS": "1200 ARGUELLO BLVD",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.457442,
+            37.765674
+        ]
+    },
+    {
+        "ADDRESS": "1200 TARAVAL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.480043,
+            37.743795
+        ]
+    },
+    {
+        "ADDRESS": "1200 VERMONT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.403684,
+            37.75425
+        ]
+    },
+    {
+        "ADDRESS": "1201 GUERRERO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42262,
+            37.751836
+        ]
+    },
+    {
+        "ADDRESS": "1201 TARAVAL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.479108,
+            37.742652
+        ]
+    },
+    {
+        "ADDRESS": "1210 09TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.466191,
+            37.765671
+        ]
+    },
+    {
+        "ADDRESS": "122 10TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.415753,
+            37.774764
+        ]
+    },
+    {
+        "ADDRESS": "1247 09TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.466712,
+            37.765063
+        ]
+    },
+    {
+        "ADDRESS": "1256 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.416056,
+            37.778302
+        ]
+    },
+    {
+        "ADDRESS": "126 ELLIS ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.4083,
+            37.785483
+        ]
+    },
+    {
+        "ADDRESS": "1300 FULTON ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.438429,
+            37.776993
+        ]
+    },
+    {
+        "ADDRESS": "1331 09TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.466596,
+            37.763401
+        ]
+    },
+    {
+        "ADDRESS": "1342 IRVING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.472438,
+            37.763995
+        ]
+    },
+    {
+        "ADDRESS": "1401 BAKER ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.443244,
+            37.7841
+        ]
+    },
+    {
+        "ADDRESS": "1412 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.418218,
+            37.77633
+        ]
+    },
+    {
+        "ADDRESS": "1419 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.44565,
+            37.769988
+        ]
+    },
+    {
+        "ADDRESS": "1428 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.445966,
+            37.770366
+        ]
+    },
+    {
+        "ADDRESS": "1431 CASTRO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.43374,
+            37.750079
+        ]
+    },
+    {
+        "ADDRESS": "145 BOSWORTH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.428354,
+            37.733272
+        ]
+    },
+    {
+        "ADDRESS": "1453 18TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.397163,
+            37.762346
+        ]
+    },
+    {
+        "ADDRESS": "15 TERESITA BLVD",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.451734,
+            37.745045
+        ]
+    },
+    {
+        "ADDRESS": "1500 SOUTH VAN NESS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.416118,
+            37.748922
+        ]
+    },
+    {
+        "ADDRESS": "1508 CHURCH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.427228,
+            37.746607
+        ]
+    },
+    {
+        "ADDRESS": "1517 PINE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420757,
+            37.789395
+        ]
+    },
+    {
+        "ADDRESS": "152 CLEMENT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.461049,
+            37.78335
+        ]
+    },
+    {
+        "ADDRESS": "155 WINSTON DR",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.474489,
+            37.72659
+        ]
+    },
+    {
+        "ADDRESS": "1551 DOLORES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.424071,
+            37.744536
+        ]
+    },
+    {
+        "ADDRESS": "1580 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420576,
+            37.74756
+        ]
+    },
+    {
+        "ADDRESS": "1600 DOLORES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.424712,
+            37.743675
+        ]
+    },
+    {
+        "ADDRESS": "1601 20TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.39741163,
+            37.75976449
+        ]
+    },
+    {
+        "ADDRESS": "1601 ALEMANY BLVD",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.435864,
+            37.726431
+        ]
+    },
+    {
+        "ADDRESS": "1605 POLK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42112,
+            37.791658
+        ]
+    },
+    {
+        "ADDRESS": "1621 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.448947,
+            37.76955
+        ]
+    },
+    {
+        "ADDRESS": "1630 OCEAN AVE",
+        "RACKS": 2,
+        "SPACES": 4,
+        "COORDINATES": [
+            -122.459648,
+            37.724848
+        ]
+    },
+    {
+        "ADDRESS": "1635 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420843,
+            37.773854
+        ]
+    },
+    {
+        "ADDRESS": "1640 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.449334,
+            37.769988
+        ]
+    },
+    {
+        "ADDRESS": "1650 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420328,
+            37.746157
+        ]
+    },
+    {
+        "ADDRESS": "1655 BRYANT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.410405,
+            37.766478
+        ]
+    },
+    {
+        "ADDRESS": "1720 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42310203,
+            37.77254418
+        ]
+    },
+    {
+        "ADDRESS": "1722 TARAVAL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.484688,
+            37.742902
+        ]
+    },
+    {
+        "ADDRESS": "1724 FILLMORE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.432895,
+            37.785621
+        ]
+    },
+    {
+        "ADDRESS": "1725 POLK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42146,
+            37.792734
+        ]
+    },
+    {
+        "ADDRESS": "1744 CLEMENT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.478189,
+            37.78253
+        ]
+    },
+    {
+        "ADDRESS": "1749 POLK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421381,
+            37.793038
+        ]
+    },
+    {
+        "ADDRESS": "1773 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.45137,
+            37.769207
+        ]
+    },
+    {
+        "ADDRESS": "1776 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420335,
+            37.768682
+        ]
+    },
+    {
+        "ADDRESS": "1790 SUTTER ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.429783,
+            37.786736
+        ]
+    },
+    {
+        "ADDRESS": "180 POST ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.404939,
+            37.788939
+        ]
+    },
+    {
+        "ADDRESS": "1800 MCALLISTER ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.4420428,
+            37.77747422
+        ]
+    },
+    {
+        "ADDRESS": "1813 FULTON ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.44678,
+            37.775598
+        ]
+    },
+    {
+        "ADDRESS": "1821 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.452306,
+            37.769035
+        ]
+    },
+    {
+        "ADDRESS": "1821 SACRAMENTO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.422995,
+            37.790817
+        ]
+    },
+    {
+        "ADDRESS": "1825 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.424053,
+            37.771076
+        ]
+    },
+    {
+        "ADDRESS": "1841 POLK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421649,
+            37.793836
+        ]
+    },
+    {
+        "ADDRESS": "1870 FILLMORE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.43307745,
+            37.78658977
+        ]
+    },
+    {
+        "ADDRESS": "1900 GEARY BLVD",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.436322,
+            37.784378
+        ]
+    },
+    {
+        "ADDRESS": "1900 POLK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42124,
+            37.794339
+        ]
+    },
+    {
+        "ADDRESS": "1906 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.425406,
+            37.770641
+        ]
+    },
+    {
+        "ADDRESS": "2 GOETTINGEN ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40887449,
+            37.7311286
+        ]
+    },
+    {
+        "ADDRESS": "200 WEST PORTAL AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.4683996,
+            37.73893208
+        ]
+    },
+    {
+        "ADDRESS": "201 OCEAN AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.441394,
+            37.723133
+        ]
+    },
+    {
+        "ADDRESS": "2023 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.419104,
+            37.764429
+        ]
+    },
+    {
+        "ADDRESS": "203 OCTAVIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.424323,
+            37.773993
+        ]
+    },
+    {
+        "ADDRESS": "2040 POLK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421498,
+            37.795678
+        ]
+    },
+    {
+        "ADDRESS": "2040 UNION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.432964,
+            37.797697
+        ]
+    },
+    {
+        "ADDRESS": "2041 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.427527,
+            37.768193
+        ]
+    },
+    {
+        "ADDRESS": "2060 FILLMORE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.433583,
+            37.788698
+        ]
+    },
+    {
+        "ADDRESS": "2083 UNION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.433485,
+            37.797088
+        ]
+    },
+    {
+        "ADDRESS": "2120 POLK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42151,
+            37.796372
+        ]
+    },
+    {
+        "ADDRESS": "2125 CHESTNUT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.438202,
+            37.800324
+        ]
+    },
+    {
+        "ADDRESS": "2141 POLK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.422173,
+            37.796487
+        ]
+    },
+    {
+        "ADDRESS": "2156 CHESTNUT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.438854,
+            37.800706
+        ]
+    },
+    {
+        "ADDRESS": "2159 FILBERT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.434908,
+            37.797832
+        ]
+    },
+    {
+        "ADDRESS": "2169 FOLSOM ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.414658,
+            37.762822
+        ]
+    },
+    {
+        "ADDRESS": "2195 FILLMORE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.434286,
+            37.789598
+        ]
+    },
+    {
+        "ADDRESS": "2200 OFARRELL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.44112487,
+            37.78246242
+        ]
+    },
+    {
+        "ADDRESS": "2208 POLK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421736,
+            37.797161
+        ]
+    },
+    {
+        "ADDRESS": "2216 FILLMORE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.433802,
+            37.790106
+        ]
+    },
+    {
+        "ADDRESS": "2217 UNION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.43585,
+            37.796896
+        ]
+    },
+    {
+        "ADDRESS": "2222 TARAVAL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.490045,
+            37.742666
+        ]
+    },
+    {
+        "ADDRESS": "2225 FILLMORE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.434381,
+            37.790209
+        ]
+    },
+    {
+        "ADDRESS": "2257 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.43184,
+            37.764764
+        ]
+    },
+    {
+        "ADDRESS": "2301 HARRISON ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.412376,
+            37.7601
+        ]
+    },
+    {
+        "ADDRESS": "2312 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.433797,
+            37.763992
+        ]
+    },
+    {
+        "ADDRESS": "2312 VICENTE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.491832,
+            37.738815
+        ]
+    },
+    {
+        "ADDRESS": "2344 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.434294,
+            37.763629
+        ]
+    },
+    {
+        "ADDRESS": "2367 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.434352,
+            37.762839
+        ]
+    },
+    {
+        "ADDRESS": "2400 FOLSOM ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41503,
+            37.758739
+        ]
+    },
+    {
+        "ADDRESS": "2404 27TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.484069,
+            37.74243416
+        ]
+    },
+    {
+        "ADDRESS": "2435 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.418642,
+            37.758062
+        ]
+    },
+    {
+        "ADDRESS": "2449 BALBOA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.485243,
+            37.776071
+        ]
+    },
+    {
+        "ADDRESS": "2543 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40503993,
+            37.75285141
+        ]
+    },
+    {
+        "ADDRESS": "2568 JONES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.416597,
+            37.805023
+        ]
+    },
+    {
+        "ADDRESS": "2574 SAN BRUNO AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40448,
+            37.729025
+        ]
+    },
+    {
+        "ADDRESS": "2600 18TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.408479,
+            37.762136
+        ]
+    },
+    {
+        "ADDRESS": "2601 MARIPOSA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.409719,
+            37.762611
+        ]
+    },
+    {
+        "ADDRESS": "2699 19TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.47590099,
+            37.73836627
+        ]
+    },
+    {
+        "ADDRESS": "2701 17TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41082772,
+            37.76408775
+        ]
+    },
+    {
+        "ADDRESS": "2717 JUDAH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.491272,
+            37.760824
+        ]
+    },
+    {
+        "ADDRESS": "2727 MARIPOSA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.410735,
+            37.762687
+        ]
+    },
+    {
+        "ADDRESS": "2733 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.418183,
+            37.753266
+        ]
+    },
+    {
+        "ADDRESS": "2778 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40780565,
+            37.75310691
+        ]
+    },
+    {
+        "ADDRESS": "2794 CALIFORNIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.440297,
+            37.788342
+        ]
+    },
+    {
+        "ADDRESS": "2799 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40802206,
+            37.75264806
+        ]
+    },
+    {
+        "ADDRESS": "28 WEST PORTAL AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.466416,
+            37.740678
+        ]
+    },
+    {
+        "ADDRESS": "2801 BRYANT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.408824,
+            37.749598
+        ]
+    },
+    {
+        "ADDRESS": "2834 DIAMOND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.434244,
+            37.734059
+        ]
+    },
+    {
+        "ADDRESS": "2885 DIAMOND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.433837,
+            37.733771
+        ]
+    },
+    {
+        "ADDRESS": "290 DOLORES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.426696,
+            37.764854
+        ]
+    },
+    {
+        "ADDRESS": "2900 HARRISON ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.411788,
+            37.751051
+        ]
+    },
+    {
+        "ADDRESS": "2929 19TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.411364,
+            37.760124
+        ]
+    },
+    {
+        "ADDRESS": "295 CHANNEL ST",
+        "RACKS": 2,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.391629,
+            37.774378
+        ]
+    },
+    {
+        "ADDRESS": "295 ORIZABA AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.462921,
+            37.714077
+        ]
+    },
+    {
+        "ADDRESS": "298 MUNICH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.427002,
+            37.721102
+        ]
+    },
+    {
+        "ADDRESS": "2991 SACRAMENTO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.44190783,
+            37.78872944
+        ]
+    },
+    {
+        "ADDRESS": "300 CHANNEL ST",
+        "RACKS": 3,
+        "SPACES": 3,
+        "COORDINATES": [
+            -122.39268338,
+            37.77344684
+        ]
+    },
+    {
+        "ADDRESS": "300 NAPLES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.428874,
+            37.723938
+        ]
+    },
+    {
+        "ADDRESS": "3000 SAN BRUNO AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.402354,
+            37.723812
+        ]
+    },
+    {
+        "ADDRESS": "301 BRAZIL AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.432146,
+            37.723674
+        ]
+    },
+    {
+        "ADDRESS": "3010 CLEMENT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.491601,
+            37.781957
+        ]
+    },
+    {
+        "ADDRESS": "3119 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.418308,
+            37.747512
+        ]
+    },
+    {
+        "ADDRESS": "313 NOE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.43275,
+            37.763907
+        ]
+    },
+    {
+        "ADDRESS": "3140 BALBOA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.492786,
+            37.776168
+        ]
+    },
+    {
+        "ADDRESS": "3159 16TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.4233,
+            37.76457
+        ]
+    },
+    {
+        "ADDRESS": "316 CLEMENT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.462662,
+            37.783276
+        ]
+    },
+    {
+        "ADDRESS": "3160 16TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.423249,
+            37.765062
+        ]
+    },
+    {
+        "ADDRESS": "3170 16TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42338851,
+            37.76508342
+        ]
+    },
+    {
+        "ADDRESS": "3199 FILLMORE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.436129,
+            37.798791
+        ]
+    },
+    {
+        "ADDRESS": "3239 22ND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41952097,
+            37.75519153
+        ]
+    },
+    {
+        "ADDRESS": "3252 PIERCE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.439174,
+            37.800176
+        ]
+    },
+    {
+        "ADDRESS": "330 FELL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.423369,
+            37.776067
+        ]
+    },
+    {
+        "ADDRESS": "3318 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.418804,
+            37.752399
+        ]
+    },
+    {
+        "ADDRESS": "3338 17TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420699,
+            37.763598
+        ]
+    },
+    {
+        "ADDRESS": "3422 25TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41864883,
+            37.75079553
+        ]
+    },
+    {
+        "ADDRESS": "345 WILLIAMS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.399247,
+            37.729805
+        ]
+    },
+    {
+        "ADDRESS": "350 PARNASSUS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.456228,
+            37.764235
+        ]
+    },
+    {
+        "ADDRESS": "3655 LAWTON ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.502228,
+            37.756666
+        ]
+    },
+    {
+        "ADDRESS": "366 BAY SHORE BLVD",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40666128,
+            37.74174378
+        ]
+    },
+    {
+        "ADDRESS": "372 HAYES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.422689,
+            37.777141
+        ]
+    },
+    {
+        "ADDRESS": "375 WOODSIDE AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.456145,
+            37.748644
+        ]
+    },
+    {
+        "ADDRESS": "380 SANCHEZ ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.43107719,
+            37.76310605
+        ]
+    },
+    {
+        "ADDRESS": "3801 18TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.428521,
+            37.761089
+        ]
+    },
+    {
+        "ADDRESS": "3870 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.429057,
+            37.751842
+        ]
+    },
+    {
+        "ADDRESS": "388 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.398167,
+            37.792217
+        ]
+    },
+    {
+        "ADDRESS": "3936 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.430435,
+            37.751758
+        ]
+    },
+    {
+        "ADDRESS": "3950 SACRAMENTO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.458077,
+            37.787219
+        ]
+    },
+    {
+        "ADDRESS": "3991 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.431622,
+            37.751244
+        ]
+    },
+    {
+        "ADDRESS": "40 PAGE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.4215957,
+            37.77445063
+        ]
+    },
+    {
+        "ADDRESS": "400 CORTLAND AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.417686,
+            37.738953
+        ]
+    },
+    {
+        "ADDRESS": "400 DEWEY BLVD",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.459522,
+            37.747388
+        ]
+    },
+    {
+        "ADDRESS": "400 POST ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40883,
+            37.788494
+        ]
+    },
+    {
+        "ADDRESS": "4045 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.432847,
+            37.751123
+        ]
+    },
+    {
+        "ADDRESS": "405 FLORIDA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41082772,
+            37.76408775
+        ]
+    },
+    {
+        "ADDRESS": "406 CLEMENT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.463777,
+            37.783225
+        ]
+    },
+    {
+        "ADDRESS": "4063 18TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.434192,
+            37.760748
+        ]
+    },
+    {
+        "ADDRESS": "4097 19TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.470277,
+            37.714472
+        ]
+    },
+    {
+        "ADDRESS": "4100 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.43438,
+            37.751437
+        ]
+    },
+    {
+        "ADDRESS": "4166 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.435577,
+            37.751451
+        ]
+    },
+    {
+        "ADDRESS": "417 SOUTH VAN NESS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.417305,
+            37.766483
+        ]
+    },
+    {
+        "ADDRESS": "4170 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.430007,
+            37.730143
+        ]
+    },
+    {
+        "ADDRESS": "4230 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.430752,
+            37.729666
+        ]
+    },
+    {
+        "ADDRESS": "425 HYDE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.416504,
+            37.784804
+        ]
+    },
+    {
+        "ADDRESS": "427 SOUTH VAN NESS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.417412,
+            37.766403
+        ]
+    },
+    {
+        "ADDRESS": "4448 CALIFORNIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.465377,
+            37.785153
+        ]
+    },
+    {
+        "ADDRESS": "45 WEST PORTAL AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.465958,
+            37.740186
+        ]
+    },
+    {
+        "ADDRESS": "4645 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.434925,
+            37.723923
+        ]
+    },
+    {
+        "ADDRESS": "4705 03RD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.390172,
+            37.735004
+        ]
+    },
+    {
+        "ADDRESS": "479 CASTRO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.434682,
+            37.76133
+        ]
+    },
+    {
+        "ADDRESS": "483 14TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.423994,
+            37.767863
+        ]
+    },
+    {
+        "ADDRESS": "494 BROADWAY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40528183,
+            37.79826282
+        ]
+    },
+    {
+        "ADDRESS": "498 HAYES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.424508,
+            37.776796
+        ]
+    },
+    {
+        "ADDRESS": "50 BELCHER ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.430485,
+            37.768516
+        ]
+    },
+    {
+        "ADDRESS": "50 FELL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.418811,
+            37.776719
+        ]
+    },
+    {
+        "ADDRESS": "510 CHURCH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.428641,
+            37.762712
+        ]
+    },
+    {
+        "ADDRESS": "518 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.422144,
+            37.764497
+        ]
+    },
+    {
+        "ADDRESS": "521 CLEMENT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.46493927,
+            37.78267621
+        ]
+    },
+    {
+        "ADDRESS": "539 HAYES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.425264,
+            37.776398
+        ]
+    },
+    {
+        "ADDRESS": "541 OCTAVIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.424957,
+            37.777257
+        ]
+    },
+    {
+        "ADDRESS": "544 JONES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.412782,
+            37.786362
+        ]
+    },
+    {
+        "ADDRESS": "558 CAPP ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.418186,
+            37.757717
+        ]
+    },
+    {
+        "ADDRESS": "562 GREEN ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40841,
+            37.799763
+        ]
+    },
+    {
+        "ADDRESS": "564 CASTRO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.435272,
+            37.759912
+        ]
+    },
+    {
+        "ADDRESS": "567 GOLDEN GATE AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41994287,
+            37.78083159
+        ]
+    },
+    {
+        "ADDRESS": "575 OFARRELL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41407009,
+            37.78546652
+        ]
+    },
+    {
+        "ADDRESS": "5799 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.450323,
+            37.709481
+        ]
+    },
+    {
+        "ADDRESS": "580 CALIFORNIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40414,
+            37.792968
+        ]
+    },
+    {
+        "ADDRESS": "598 CASTRO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.435147,
+            37.7594
+        ]
+    },
+    {
+        "ADDRESS": "6 JOOST AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.435114,
+            37.732507
+        ]
+    },
+    {
+        "ADDRESS": "600 HARRISON ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.395913,
+            37.784132
+        ]
+    },
+    {
+        "ADDRESS": "601 DIVISADERO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.438042,
+            37.775154
+        ]
+    },
+    {
+        "ADDRESS": "609 COLE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.450926,
+            37.769263
+        ]
+    },
+    {
+        "ADDRESS": "631 HOWARD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.398556,
+            37.786043
+        ]
+    },
+    {
+        "ADDRESS": "640 CLAY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.403864,
+            37.794793
+        ]
+    },
+    {
+        "ADDRESS": "644 IRVING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.46497256,
+            37.76427718
+        ]
+    },
+    {
+        "ADDRESS": "651 DIVISADERO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.43798,
+            37.775682
+        ]
+    },
+    {
+        "ADDRESS": "657 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40084,
+            37.78671
+        ]
+    },
+    {
+        "ADDRESS": "701 BATTERY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.401153,
+            37.797721
+        ]
+    },
+    {
+        "ADDRESS": "701 HOWARD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.400813,
+            37.783513
+        ]
+    },
+    {
+        "ADDRESS": "730 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.404371,
+            37.787432
+        ]
+    },
+    {
+        "ADDRESS": "730 POLK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.419007,
+            37.783819
+        ]
+    },
+    {
+        "ADDRESS": "731 IRVING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.465801,
+            37.763814
+        ]
+    },
+    {
+        "ADDRESS": "735 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.43423,
+            37.771408
+        ]
+    },
+    {
+        "ADDRESS": "746 ARGUELLO BLVD",
+        "RACKS": 2,
+        "SPACES": 4,
+        "COORDINATES": [
+            -122.458215,
+            37.776354
+        ]
+    },
+    {
+        "ADDRESS": "765 PENNSYLVANIA AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.39275,
+            37.756408
+        ]
+    },
+    {
+        "ADDRESS": "770 GOLDEN GATE AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.423396,
+            37.780909
+        ]
+    },
+    {
+        "ADDRESS": "770 STANYAN ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.452903,
+            37.767885
+        ]
+    },
+    {
+        "ADDRESS": "775 YORK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.408907,
+            37.759328
+        ]
+    },
+    {
+        "ADDRESS": "801 HAYES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42975697,
+            37.77586947
+        ]
+    },
+    {
+        "ADDRESS": "801 PORTOLA DR",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.454092,
+            37.743623
+        ]
+    },
+    {
+        "ADDRESS": "801 TURK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.422576,
+            37.781452
+        ]
+    },
+    {
+        "ADDRESS": "803 CORTLAND AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.414461,
+            37.73908
+        ]
+    },
+    {
+        "ADDRESS": "803 DIVISADERO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.43844,
+            37.777082
+        ]
+    },
+    {
+        "ADDRESS": "826 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421689,
+            37.75955
+        ]
+    },
+    {
+        "ADDRESS": "856 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.4071,
+            37.785155
+        ]
+    },
+    {
+        "ADDRESS": "953 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.407365,
+            37.781553
+        ]
+    },
+    {
+        "ADDRESS": "969 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.409229,
+            37.78252
+        ]
+    },
+    {
+        "ADDRESS": "980 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421488,
+            37.757265
+        ]
+    },
+    {
+        "ADDRESS": "985 SHOTWELL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41498878,
+            37.75265286
+        ]
+    },
+    {
+        "ADDRESS": "1 BUSH PLZ",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40033367,
+            37.79054833
+        ]
+    },
+    {
+        "ADDRESS": "1 BUSH PLZ",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40033367,
+            37.79054833
+        ]
+    },
+    {
+        "ADDRESS": "1 DR CARLTON B GOODLETT PL",
+        "RACKS": 2,
+        "SPACES": 4,
+        "COORDINATES": [
+            -122.41903,
+            37.778846
+        ]
+    },
+    {
+        "ADDRESS": "1348 09TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.46592,
+            37.763156
+        ]
+    },
+    {
+        "ADDRESS": "1348 09TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.46592,
+            37.763156
+        ]
+    },
+    {
+        "ADDRESS": "1555 MARIPOSA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.399458,
+            37.763454
+        ]
+    },
+    {
+        "ADDRESS": "170 OFARRELL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40736346,
+            37.78679591
+        ]
+    },
+    {
+        "ADDRESS": "1701 DIVISADERO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.440238,
+            37.785488
+        ]
+    },
+    {
+        "ADDRESS": "1745 FOLSOM ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.415058,
+            37.769109
+        ]
+    },
+    {
+        "ADDRESS": "180 NEW MONTGOMERY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.399521,
+            37.786251
+        ]
+    },
+    {
+        "ADDRESS": "181 02ND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.398362,
+            37.787175
+        ]
+    },
+    {
+        "ADDRESS": "181 02ND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.398362,
+            37.787175
+        ]
+    },
+    {
+        "ADDRESS": "1900 FOLSOM ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.415783,
+            37.766795
+        ]
+    },
+    {
+        "ADDRESS": "204 03RD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40081339,
+            37.78351336
+        ]
+    },
+    {
+        "ADDRESS": "204 03RD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40081339,
+            37.78351336
+        ]
+    },
+    {
+        "ADDRESS": "2239 POLK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.422361,
+            37.797548
+        ]
+    },
+    {
+        "ADDRESS": "2275 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.432062,
+            37.764555
+        ]
+    },
+    {
+        "ADDRESS": "230 09TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.412862,
+            37.774399
+        ]
+    },
+    {
+        "ADDRESS": "230 09TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.412862,
+            37.774399
+        ]
+    },
+    {
+        "ADDRESS": "25 SANCHEZ ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.430979,
+            37.768929
+        ]
+    },
+    {
+        "ADDRESS": "2555 IRVING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.48550457,
+            37.76294511
+        ]
+    },
+    {
+        "ADDRESS": "2555 IRVING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.48550457,
+            37.76294511
+        ]
+    },
+    {
+        "ADDRESS": "26 07TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.4124,
+            37.780071
+        ]
+    },
+    {
+        "ADDRESS": "26 07TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.4124,
+            37.780071
+        ]
+    },
+    {
+        "ADDRESS": "2690 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.418974,
+            37.754029
+        ]
+    },
+    {
+        "ADDRESS": "2800 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40839866,
+            37.75303805
+        ]
+    },
+    {
+        "ADDRESS": "2801 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.4180857,
+            37.75209257
+        ]
+    },
+    {
+        "ADDRESS": "2801 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.4180857,
+            37.75209257
+        ]
+    },
+    {
+        "ADDRESS": "298 09TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.412042,
+            37.773781
+        ]
+    },
+    {
+        "ADDRESS": "298 09TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.412042,
+            37.773781
+        ]
+    },
+    {
+        "ADDRESS": "300 CONNECTICUT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.397653,
+            37.762402
+        ]
+    },
+    {
+        "ADDRESS": "3150 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.415346,
+            37.752631
+        ]
+    },
+    {
+        "ADDRESS": "3180 18TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.414601,
+            37.762385
+        ]
+    },
+    {
+        "ADDRESS": "333 BUSH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.403057,
+            37.790592
+        ]
+    },
+    {
+        "ADDRESS": "333 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42169002,
+            37.76768496
+        ]
+    },
+    {
+        "ADDRESS": "3505 17TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.424214,
+            37.763009
+        ]
+    },
+    {
+        "ADDRESS": "360 18TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.476968,
+            37.781271
+        ]
+    },
+    {
+        "ADDRESS": "3600 16TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.433406,
+            37.764391
+        ]
+    },
+    {
+        "ADDRESS": "430 09TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.409791,
+            37.771949
+        ]
+    },
+    {
+        "ADDRESS": "430 09TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.409791,
+            37.771949
+        ]
+    },
+    {
+        "ADDRESS": "4348 03RD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.38970207,
+            37.73825175
+        ]
+    },
+    {
+        "ADDRESS": "445 CHURCH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.428205,
+            37.763754
+        ]
+    },
+    {
+        "ADDRESS": "451 JUDAH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.467058,
+            37.761889
+        ]
+    },
+    {
+        "ADDRESS": "480 05TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.400857,
+            37.777924
+        ]
+    },
+    {
+        "ADDRESS": "488 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.43026804,
+            37.77235709
+        ]
+    },
+    {
+        "ADDRESS": "500 04TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.398131,
+            37.779293
+        ]
+    },
+    {
+        "ADDRESS": "519 HAYES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.425002,
+            37.776434
+        ]
+    },
+    {
+        "ADDRESS": "563 02ND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.392461,
+            37.782539
+        ]
+    },
+    {
+        "ADDRESS": "5843 GEARY BLVD",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.482164,
+            37.779935
+        ]
+    },
+    {
+        "ADDRESS": "595 02ND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.3921426,
+            37.7822631
+        ]
+    },
+    {
+        "ADDRESS": "595 02ND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.3921426,
+            37.7822631
+        ]
+    },
+    {
+        "ADDRESS": "65 09TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.414948,
+            37.77677
+        ]
+    },
+    {
+        "ADDRESS": "65 09TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.414948,
+            37.77677
+        ]
+    },
+    {
+        "ADDRESS": "700 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.433945,
+            37.771879
+        ]
+    },
+    {
+        "ADDRESS": "720 YORK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.409203,
+            37.759826
+        ]
+    },
+    {
+        "ADDRESS": "750 EDDY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420049,
+            37.783255
+        ]
+    },
+    {
+        "ADDRESS": "956 COLE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.44945099,
+            37.76536883
+        ]
+    },
+    {
+        "ADDRESS": "985 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42085,
+            37.757224
+        ]
+    },
+    {
+        "ADDRESS": "100 MASONIC AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.446879,
+            37.780685
+        ]
+    },
+    {
+        "ADDRESS": "100 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.394593,
+            37.792536
+        ]
+    },
+    {
+        "ADDRESS": "100 SANSOME ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40045,
+            37.7915
+        ]
+    },
+    {
+        "ADDRESS": "101 SPEAR ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.39359,
+            37.79277
+        ]
+    },
+    {
+        "ADDRESS": "1028 HOWARD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.407922,
+            37.779469
+        ]
+    },
+    {
+        "ADDRESS": "1032 CLEMENT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.470532,
+            37.78285
+        ]
+    },
+    {
+        "ADDRESS": "1040 FOLSOM ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.406706,
+            37.777956
+        ]
+    },
+    {
+        "ADDRESS": "106 POWELL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.407677,
+            37.78577
+        ]
+    },
+    {
+        "ADDRESS": "110 SUTTER ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.402697,
+            37.790225
+        ]
+    },
+    {
+        "ADDRESS": "1122 TARAVAL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.478343,
+            37.743181
+        ]
+    },
+    {
+        "ADDRESS": "1133 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.411516,
+            37.77833
+        ]
+    },
+    {
+        "ADDRESS": "114 SANSOME ST",
+        "RACKS": 2,
+        "SPACES": 4,
+        "COORDINATES": [
+            -122.40045,
+            37.7915
+        ]
+    },
+    {
+        "ADDRESS": "115 SANSOME ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.401038,
+            37.791427
+        ]
+    },
+    {
+        "ADDRESS": "117 NEW MONTGOMERY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.399959,
+            37.787247
+        ]
+    },
+    {
+        "ADDRESS": "1199 SOUTH VAN NESS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.416072,
+            37.754118
+        ]
+    },
+    {
+        "ADDRESS": "1201 FOLSOM ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41005,
+            37.774668
+        ]
+    },
+    {
+        "ADDRESS": "121 COLLINGWOOD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.435758,
+            37.76044234
+        ]
+    },
+    {
+        "ADDRESS": "1220 NOE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.432785,
+            37.749363
+        ]
+    },
+    {
+        "ADDRESS": "1222 NORIEGA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.476992,
+            37.754466
+        ]
+    },
+    {
+        "ADDRESS": "123 BATTERY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.400439,
+            37.792602
+        ]
+    },
+    {
+        "ADDRESS": "123 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.394339,
+            37.791882
+        ]
+    },
+    {
+        "ADDRESS": "126 NEW MONTGOMERY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.400427,
+            37.787042
+        ]
+    },
+    {
+        "ADDRESS": "1261 HOWARD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.412145,
+            37.775324
+        ]
+    },
+    {
+        "ADDRESS": "127 COLLINGWOOD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.435752,
+            37.760375
+        ]
+    },
+    {
+        "ADDRESS": "1301 HOWARD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.413169,
+            37.774637
+        ]
+    },
+    {
+        "ADDRESS": "1314 CASTRO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.434336,
+            37.750996
+        ]
+    },
+    {
+        "ADDRESS": "1320 POTRERO AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40647,
+            37.751012
+        ]
+    },
+    {
+        "ADDRESS": "1320 SUTTER ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.422309,
+            37.787741
+        ]
+    },
+    {
+        "ADDRESS": "1325 HOWARD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.413397,
+            37.774457
+        ]
+    },
+    {
+        "ADDRESS": "136 CHURCH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42943,
+            37.768723
+        ]
+    },
+    {
+        "ADDRESS": "1390 PACIFIC AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.418037,
+            37.795648
+        ]
+    },
+    {
+        "ADDRESS": "1405 NORIEGA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.47888473,
+            37.75389824
+        ]
+    },
+    {
+        "ADDRESS": "141 KEARNY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.404113,
+            37.789471
+        ]
+    },
+    {
+        "ADDRESS": "1414 CALIFORNIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.417704,
+            37.791176
+        ]
+    },
+    {
+        "ADDRESS": "1414 VAN NESS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421555,
+            37.788846
+        ]
+    },
+    {
+        "ADDRESS": "144 02ND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.399211,
+            37.787209
+        ]
+    },
+    {
+        "ADDRESS": "15 SUTTER ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.400783,
+            37.790057
+        ]
+    },
+    {
+        "ADDRESS": "1500 CHURCH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.427243,
+            37.746751
+        ]
+    },
+    {
+        "ADDRESS": "1501 FILLMORE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.433316,
+            37.783481
+        ]
+    },
+    {
+        "ADDRESS": "1506 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.447179,
+            37.769995
+        ]
+    },
+    {
+        "ADDRESS": "1509 CHURCH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.426666,
+            37.746651
+        ]
+    },
+    {
+        "ADDRESS": "1525 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.418581,
+            37.774862
+        ]
+    },
+    {
+        "ADDRESS": "1543 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.447668,
+            37.769627
+        ]
+    },
+    {
+        "ADDRESS": "157 TOWNSEND ST",
+        "RACKS": 2,
+        "SPACES": 4,
+        "COORDINATES": [
+            -122.391369,
+            37.779252
+        ]
+    },
+    {
+        "ADDRESS": "1620 POLK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420596,
+            37.791912
+        ]
+    },
+    {
+        "ADDRESS": "1640 STOCKTON ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.408941,
+            37.80101
+        ]
+    },
+    {
+        "ADDRESS": "1640 VAN NESS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421999,
+            37.791006
+        ]
+    },
+    {
+        "ADDRESS": "1653 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.419465,
+            37.771414
+        ]
+    },
+    {
+        "ADDRESS": "1665 BRYANT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41041327,
+            37.76647646
+        ]
+    },
+    {
+        "ADDRESS": "1667 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.450051,
+            37.769375
+        ]
+    },
+    {
+        "ADDRESS": "1686 15TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42175253,
+            37.76681106
+        ]
+    },
+    {
+        "ADDRESS": "1688 BRYANT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.410555,
+            37.765743
+        ]
+    },
+    {
+        "ADDRESS": "1695 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.419124,
+            37.770494
+        ]
+    },
+    {
+        "ADDRESS": "1700 JACKSON ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.423502,
+            37.794021
+        ]
+    },
+    {
+        "ADDRESS": "1701 POWELL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.411171,
+            37.800385
+        ]
+    },
+    {
+        "ADDRESS": "1750 NORIEGA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.482641,
+            37.754273
+        ]
+    },
+    {
+        "ADDRESS": "1751 FULTON ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.445541,
+            37.775633
+        ]
+    },
+    {
+        "ADDRESS": "1810 CLEMENT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.478749,
+            37.782312
+        ]
+    },
+    {
+        "ADDRESS": "1816 IRVING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.477486,
+            37.763762
+        ]
+    },
+    {
+        "ADDRESS": "1871 HAYES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.447374,
+            37.773644
+        ]
+    },
+    {
+        "ADDRESS": "2 HARRISON ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.389757,
+            37.789803
+        ]
+    },
+    {
+        "ADDRESS": "200 FOLSOM ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.392299,
+            37.789286
+        ]
+    },
+    {
+        "ADDRESS": "2001 VAN NESS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.423346,
+            37.794087
+        ]
+    },
+    {
+        "ADDRESS": "207 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.422059,
+            37.76962
+        ]
+    },
+    {
+        "ADDRESS": "2086 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.419863,
+            37.763744
+        ]
+    },
+    {
+        "ADDRESS": "2116 IRVING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.480677,
+            37.76357
+        ]
+    },
+    {
+        "ADDRESS": "214 VAN NESS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.419356,
+            37.777692
+        ]
+    },
+    {
+        "ADDRESS": "2157 LOMBARD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.436911,
+            37.799471
+        ]
+    },
+    {
+        "ADDRESS": "2164 POLK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421644,
+            37.796791
+        ]
+    },
+    {
+        "ADDRESS": "2166 HAYES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.451979,
+            37.773482
+        ]
+    },
+    {
+        "ADDRESS": "2193 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.430669,
+            37.765775
+        ]
+    },
+    {
+        "ADDRESS": "220 BUSH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.401307,
+            37.791392
+        ]
+    },
+    {
+        "ADDRESS": "2200 CLEMENT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.48293,
+            37.782357
+        ]
+    },
+    {
+        "ADDRESS": "2206 IRVING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.481705,
+            37.76361
+        ]
+    },
+    {
+        "ADDRESS": "221 MAIN ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.392214,
+            37.790346
+        ]
+    },
+    {
+        "ADDRESS": "2221 CLEMENT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.483166,
+            37.781851
+        ]
+    },
+    {
+        "ADDRESS": "2227 POLK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.4223,
+            37.797249
+        ]
+    },
+    {
+        "ADDRESS": "2239 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.431409,
+            37.765084
+        ]
+    },
+    {
+        "ADDRESS": "2240 CHESTNUT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.440145,
+            37.800482
+        ]
+    },
+    {
+        "ADDRESS": "2242 LOMBARD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.438727,
+            37.799833
+        ]
+    },
+    {
+        "ADDRESS": "2249 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.431892,
+            37.765055
+        ]
+    },
+    {
+        "ADDRESS": "225 11TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.414952,
+            37.772938
+        ]
+    },
+    {
+        "ADDRESS": "225 BUSH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.401337,
+            37.790937
+        ]
+    },
+    {
+        "ADDRESS": "2279 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.432199,
+            37.764505
+        ]
+    },
+    {
+        "ADDRESS": "2300 IRVING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.48272,
+            37.763563
+        ]
+    },
+    {
+        "ADDRESS": "2305 IRVING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.482642,
+            37.763071
+        ]
+    },
+    {
+        "ADDRESS": "2319 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.433627,
+            37.763344
+        ]
+    },
+    {
+        "ADDRESS": "2325 NORIEGA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.488793,
+            37.753442
+        ]
+    },
+    {
+        "ADDRESS": "2348 CLEMENT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.484619,
+            37.782279
+        ]
+    },
+    {
+        "ADDRESS": "2351 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.434057,
+            37.763064
+        ]
+    },
+    {
+        "ADDRESS": "2400 IRVING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.483856,
+            37.763513
+        ]
+    },
+    {
+        "ADDRESS": "243 KEARNY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.404201,
+            37.790413
+        ]
+    },
+    {
+        "ADDRESS": "2448 CLEMENT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.485747,
+            37.782227
+        ]
+    },
+    {
+        "ADDRESS": "245 11TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.414667,
+            37.77271
+        ]
+    },
+    {
+        "ADDRESS": "246 01ST ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.395663,
+            37.787733
+        ]
+    },
+    {
+        "ADDRESS": "248 FILLMORE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.430151,
+            37.771931
+        ]
+    },
+    {
+        "ADDRESS": "2516 NORIEGA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.490726,
+            37.753837
+        ]
+    },
+    {
+        "ADDRESS": "2550 IRVING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.485143,
+            37.763432
+        ]
+    },
+    {
+        "ADDRESS": "2597 FOLSOM ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.414403,
+            37.755789
+        ]
+    },
+    {
+        "ADDRESS": "270 06TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.406247,
+            37.778623
+        ]
+    },
+    {
+        "ADDRESS": "270 MASONIC AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.446749,
+            37.778919
+        ]
+    },
+    {
+        "ADDRESS": "2817 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.408587,
+            37.752632
+        ]
+    },
+    {
+        "ADDRESS": "286 NOE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.433415,
+            37.764486
+        ]
+    },
+    {
+        "ADDRESS": "2876 CALIFORNIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.441761,
+            37.788163
+        ]
+    },
+    {
+        "ADDRESS": "2889 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.418055,
+            37.750884
+        ]
+    },
+    {
+        "ADDRESS": "2909 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.417927,
+            37.750448
+        ]
+    },
+    {
+        "ADDRESS": "2929 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.410625,
+            37.752477
+        ]
+    },
+    {
+        "ADDRESS": "295 DIVISADERO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.437516,
+            37.772028
+        ]
+    },
+    {
+        "ADDRESS": "2966 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.411477,
+            37.752885
+        ]
+    },
+    {
+        "ADDRESS": "2981 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.411514,
+            37.752424
+        ]
+    },
+    {
+        "ADDRESS": "3013 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.412221,
+            37.752455
+        ]
+    },
+    {
+        "ADDRESS": "3017 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41772,
+            37.748833
+        ]
+    },
+    {
+        "ADDRESS": "3033 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.412567,
+            37.752399
+        ]
+    },
+    {
+        "ADDRESS": "3080 16TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421596,
+            37.765176
+        ]
+    },
+    {
+        "ADDRESS": "3101 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41817051,
+            37.74785345
+        ]
+    },
+    {
+        "ADDRESS": "3117 16TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.422415,
+            37.764623
+        ]
+    },
+    {
+        "ADDRESS": "312 MASON ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.409517,
+            37.7865
+        ]
+    },
+    {
+        "ADDRESS": "3122 16TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.422612,
+            37.765125
+        ]
+    },
+    {
+        "ADDRESS": "3130 FILLMORE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.435534,
+            37.798611
+        ]
+    },
+    {
+        "ADDRESS": "3141 16TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.422973,
+            37.764631
+        ]
+    },
+    {
+        "ADDRESS": "3141 17TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.416029,
+            37.763414
+        ]
+    },
+    {
+        "ADDRESS": "3154 17TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.416461,
+            37.76384
+        ]
+    },
+    {
+        "ADDRESS": "3160 MISSION ST",
+        "RACKS": 2,
+        "SPACES": 4,
+        "COORDINATES": [
+            -122.419544,
+            37.746674
+        ]
+    },
+    {
+        "ADDRESS": "3190 21ST ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.418605,
+            37.757258
+        ]
+    },
+    {
+        "ADDRESS": "320 10TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.412622,
+            37.772327
+        ]
+    },
+    {
+        "ADDRESS": "3250 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420795,
+            37.744873
+        ]
+    },
+    {
+        "ADDRESS": "3274 21ST ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420517,
+            37.757142
+        ]
+    },
+    {
+        "ADDRESS": "33 GOUGH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421271,
+            37.772055
+        ]
+    },
+    {
+        "ADDRESS": "3329 24TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.419119,
+            37.751967
+        ]
+    },
+    {
+        "ADDRESS": "333 11TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.413241,
+            37.771491
+        ]
+    },
+    {
+        "ADDRESS": "3376 22ND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42257142,
+            37.75545192
+        ]
+    },
+    {
+        "ADDRESS": "3388 17TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421036,
+            37.763577
+        ]
+    },
+    {
+        "ADDRESS": "340 MASON ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.409656,
+            37.786968
+        ]
+    },
+    {
+        "ADDRESS": "3400 CALIFORNIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.450415,
+            37.786961
+        ]
+    },
+    {
+        "ADDRESS": "3401 IRVING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.494431,
+            37.762551
+        ]
+    },
+    {
+        "ADDRESS": "3409 23RD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421073,
+            37.753485
+        ]
+    },
+    {
+        "ADDRESS": "342 DIVISADERO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.437032,
+            37.772847
+        ]
+    },
+    {
+        "ADDRESS": "345 WEST PORTAL AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.469528,
+            37.737186
+        ]
+    },
+    {
+        "ADDRESS": "350 PACIFIC AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.401623,
+            37.797818
+        ]
+    },
+    {
+        "ADDRESS": "36 02ND ST",
+        "RACKS": 2,
+        "SPACES": 4,
+        "COORDINATES": [
+            -122.400958,
+            37.788587
+        ]
+    },
+    {
+        "ADDRESS": "3602 20TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42160813,
+            37.75870599
+        ]
+    },
+    {
+        "ADDRESS": "369 PINE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.401984,
+            37.791722
+        ]
+    },
+    {
+        "ADDRESS": "375 11TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.412604,
+            37.771079
+        ]
+    },
+    {
+        "ADDRESS": "381 GUERRERO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42389,
+            37.765151
+        ]
+    },
+    {
+        "ADDRESS": "39 NEW MONTGOMERY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.400955,
+            37.788227
+        ]
+    },
+    {
+        "ADDRESS": "3940 JUDAH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.504582,
+            37.760629
+        ]
+    },
+    {
+        "ADDRESS": "395 SOUTH VAN NESS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.417356,
+            37.767014
+        ]
+    },
+    {
+        "ADDRESS": "4000 GEARY BLVD",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.462337,
+            37.781349
+        ]
+    },
+    {
+        "ADDRESS": "401 EUCLID AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.452729,
+            37.7838
+        ]
+    },
+    {
+        "ADDRESS": "4035 JUDAH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.505461,
+            37.760198
+        ]
+    },
+    {
+        "ADDRESS": "4068 18TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.434231,
+            37.761161
+        ]
+    },
+    {
+        "ADDRESS": "4101 CALIFORNIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.461532,
+            37.785161
+        ]
+    },
+    {
+        "ADDRESS": "4115 19TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.43516779,
+            37.75912636
+        ]
+    },
+    {
+        "ADDRESS": "4121 18TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.435479,
+            37.760668
+        ]
+    },
+    {
+        "ADDRESS": "420 TAYLOR ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.411031,
+            37.786332
+        ]
+    },
+    {
+        "ADDRESS": "429 CASTRO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.434696,
+            37.762013
+        ]
+    },
+    {
+        "ADDRESS": "4343 03RD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.389208,
+            37.738093
+        ]
+    },
+    {
+        "ADDRESS": "44 MONTGOMERY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.401767,
+            37.789808
+        ]
+    },
+    {
+        "ADDRESS": "445 CASTRO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.434795,
+            37.76173
+        ]
+    },
+    {
+        "ADDRESS": "451 CORTLAND AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.416856,
+            37.739275
+        ]
+    },
+    {
+        "ADDRESS": "4620 CALIFORNIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.467201,
+            37.784939
+        ]
+    },
+    {
+        "ADDRESS": "4720 03RD ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.390845,
+            37.735443
+        ]
+    },
+    {
+        "ADDRESS": "474 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.422417,
+            37.765409
+        ]
+    },
+    {
+        "ADDRESS": "495 09TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.467633,
+            37.779241
+        ]
+    },
+    {
+        "ADDRESS": "500 BRANNAN ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.396858,
+            37.778279
+        ]
+    },
+    {
+        "ADDRESS": "501 FILLMORE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.431047,
+            37.774178
+        ]
+    },
+    {
+        "ADDRESS": "501 HAYES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.424756,
+            37.776393
+        ]
+    },
+    {
+        "ADDRESS": "5030 GEARY BLVD",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.473486,
+            37.78091
+        ]
+    },
+    {
+        "ADDRESS": "525 BRYANT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.396559,
+            37.780782
+        ]
+    },
+    {
+        "ADDRESS": "547 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.431212,
+            37.771878
+        ]
+    },
+    {
+        "ADDRESS": "5507 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.444609,
+            37.71244
+        ]
+    },
+    {
+        "ADDRESS": "558 CLAYTON ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.448317,
+            37.769965
+        ]
+    },
+    {
+        "ADDRESS": "5609 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.446396,
+            37.711165
+        ]
+    },
+    {
+        "ADDRESS": "564 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.401188,
+            37.789879
+        ]
+    },
+    {
+        "ADDRESS": "57 KISSLING ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.414361,
+            37.772953
+        ]
+    },
+    {
+        "ADDRESS": "583 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.431719,
+            37.771796
+        ]
+    },
+    {
+        "ADDRESS": "583 SHOTWELL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41527469,
+            37.75907967
+        ]
+    },
+    {
+        "ADDRESS": "595 BUCKINGHAM WAY",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.479519,
+            37.729524
+        ]
+    },
+    {
+        "ADDRESS": "60 GOLDEN GATE AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41178585,
+            37.7824143
+        ]
+    },
+    {
+        "ADDRESS": "601 BRUNSWICK ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.445534,
+            37.709564
+        ]
+    },
+    {
+        "ADDRESS": "601 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.421395,
+            37.763092
+        ]
+    },
+    {
+        "ADDRESS": "609 HAYES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.426491,
+            37.776263
+        ]
+    },
+    {
+        "ADDRESS": "610 VALLEJO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.407429,
+            37.79889
+        ]
+    },
+    {
+        "ADDRESS": "6134 GEARY BLVD",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.485376,
+            37.780371
+        ]
+    },
+    {
+        "ADDRESS": "615 BALBOA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.465347,
+            37.777026
+        ]
+    },
+    {
+        "ADDRESS": "621 DIVISADERO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.438045,
+            37.775322
+        ]
+    },
+    {
+        "ADDRESS": "628 20TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.388228,
+            37.760684
+        ]
+    },
+    {
+        "ADDRESS": "633 BATTERY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.401161,
+            37.797147
+        ]
+    },
+    {
+        "ADDRESS": "678 GREEN ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.410267,
+            37.799636
+        ]
+    },
+    {
+        "ADDRESS": "680 02ND ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.391232,
+            37.780697
+        ]
+    },
+    {
+        "ADDRESS": "698 HAYES ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.427782,
+            37.776466
+        ]
+    },
+    {
+        "ADDRESS": "7 DRUMM ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.396712,
+            37.793824
+        ]
+    },
+    {
+        "ADDRESS": "70 04TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40491,
+            37.784685
+        ]
+    },
+    {
+        "ADDRESS": "71 STEVENSON ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.399666,
+            37.789373
+        ]
+    },
+    {
+        "ADDRESS": "711 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40369,
+            37.787025
+        ]
+    },
+    {
+        "ADDRESS": "730 TARAVAL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.474291,
+            37.743359
+        ]
+    },
+    {
+        "ADDRESS": "736 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.403364,
+            37.785909
+        ]
+    },
+    {
+        "ADDRESS": "739 LARKIN ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.418102,
+            37.784821
+        ]
+    },
+    {
+        "ADDRESS": "740 TAYLOR ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.411778,
+            37.789383
+        ]
+    },
+    {
+        "ADDRESS": "755 COLUMBUS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.412336,
+            37.8016
+        ]
+    },
+    {
+        "ADDRESS": "782 ARGUELLO BLVD",
+        "RACKS": 2,
+        "SPACES": 4,
+        "COORDINATES": [
+            -122.45812,
+            37.775648
+        ]
+    },
+    {
+        "ADDRESS": "791 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.435107,
+            37.771319
+        ]
+    },
+    {
+        "ADDRESS": "816 FOLSOM ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40184,
+            37.7818
+        ]
+    },
+    {
+        "ADDRESS": "82 14TH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.415111,
+            37.768814
+        ]
+    },
+    {
+        "ADDRESS": "822 GEARY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.417005,
+            37.78653
+        ]
+    },
+    {
+        "ADDRESS": "842 COLE ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.449777,
+            37.766196
+        ]
+    },
+    {
+        "ADDRESS": "86 CARL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.449678,
+            37.765998
+        ]
+    },
+    {
+        "ADDRESS": "888 BRANNAN ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.405193,
+            37.772015
+        ]
+    },
+    {
+        "ADDRESS": "900 ALABAMA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.41159187,
+            37.75723366
+        ]
+    },
+    {
+        "ADDRESS": "901 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420958,
+            37.758351
+        ]
+    },
+    {
+        "ADDRESS": "926 TARAVAL ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.476361,
+            37.743268
+        ]
+    },
+    {
+        "ADDRESS": "938 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.42149783,
+            37.75791409
+        ]
+    },
+    {
+        "ADDRESS": "955 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.420892,
+            37.757654
+        ]
+    },
+    {
+        "ADDRESS": "972 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40995,
+            37.783035
+        ]
+    },
+    {
+        "ADDRESS": "999 VALENCIA ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.4208381,
+            37.7570827
+        ]
+    },
+    {
+        "ADDRESS": "101 GEARY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40528,
+            37.787597
+        ]
+    },
+    {
+        "ADDRESS": "101 GEARY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.40528,
+            37.787597
+        ]
+    },
+    {
+        "ADDRESS": "1235 MISSION ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.413521,
+            37.77666
+        ]
+    },
+    {
+        "ADDRESS": "1326 CHURCH ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.427416,
+            37.749529
+        ]
+    },
+    {
+        "ADDRESS": "1360 09TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.465903,
+            37.762916
+        ]
+    },
+    {
+        "ADDRESS": "1360 09TH AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.465903,
+            37.762916
+        ]
+    },
+    {
+        "ADDRESS": "1400 EVANS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.384707,
+            37.741798
+        ]
+    },
+    {
+        "ADDRESS": "1400 EVANS AVE",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.384707,
+            37.741798
+        ]
+    },
+    {
+        "ADDRESS": "1455 MARKET ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.417466,
+            37.775228
+        ]
+    },
+    {
+        "ADDRESS": "1519 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.447269,
+            37.769743
+        ]
+    },
+    {
+        "ADDRESS": "1519 HAIGHT ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.447269,
+            37.769743
+        ]
+    },
+    {
+        "ADDRESS": "1600 DIVISADERO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.438928,
+            37.784891
+        ]
+    },
+    {
+        "ADDRESS": "1701 DIVISADERO ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.440238,
+            37.785488
+        ]
+    },
+    {
+        "ADDRESS": "180 NEW MONTGOMERY ST",
+        "RACKS": 1,
+        "SPACES": 2,
+        "COORDINATES": [
+            -122.399521,
+            37.786251
+        ]
+    }
+]

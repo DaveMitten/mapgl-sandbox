@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { StaticMap } from "react-map-gl";
 import { H3HexagonLayer } from "@deck.gl/geo-layers";
+import { HexagonLayer } from "@deck.gl/aggregation-layers";
 import DeckGL from "@deck.gl/react";
 import { jan95, jan00, jan05 } from "../../dummyData/concatData";
-import YearSelector from "../YearSelector/YearSelector"
+import testData from "../../dummyData/testDataHexNo3.json";
+import YearSelector from "../YearSelector/YearSelector";
 
 const MAPBOX_TOKEN =
 	"pk.eyJ1Ijoiam5hbGV4YW5kZXIxMCIsImEiOiJjaWlobnE4eGswMDFld2RtNmZxMDl3Nzc3In0.UTaIFjrs21qB1npSeliZbQ";
@@ -26,11 +28,13 @@ class FirstMap extends Component {
 		location: "",
 		year: 0
 	};
+
 	componentDidMount() {
 		this.setState({
-			location: jan95,
+			location: jan95
 		});
 	}
+
 	// extractedData = () => {
 	// 	const areaDataResult = areaData.map(i => i.result);
 	// 	areaDataResult.map(i => {
@@ -69,41 +73,56 @@ class FirstMap extends Component {
 	// 		// })
 	// 	);
 	// };
-	layerRendering = () => {
+	_layerRendering = () => {
 		const stateLocation = this.state.location;
-		const valuesOfState = stateLocation[0]
+		const valuesOfState = stateLocation[0];
 		return [
 			new H3HexagonLayer({
 				id: "h3-hexagon-layer",
-				data:  valuesOfState && Object.values(valuesOfState),
+				data: valuesOfState && Object.values(valuesOfState),
 				pickable: true,
+				opacity: 0.15,
 				wireframe: true,
 				filled: true,
 				extruded: true,
-				elevationScale: 1,
-				coverage: 1 * 50,
+				coverage: 50,
 				getHexagon: d => d.h3Location,
-				getFillColor: [223, 25, 149], // flurescent pink
+				getFillColor: [223, 25, 149], // fluorescent pink
 				getElevation: d => d.price * 0.6
 			})
 		];
 	};
 
+	// newData = testData;
+
+	// newData = eval(testData);
+	_layer = new HexagonLayer({
+		id: "hexagon-layer",
+		data: testData,
+		pickable: true,
+		extruded: true,
+		radius: 200,
+		elevationScale: 100,
+		// upperPercentile: 100,
+		// getElevationValue: d =>
+		getPosition: d => d.COORDINATES
+	});
+
 	yearOnChange = e => {
 		const data = {
 			0: jan95,
 			1: jan00,
-			2: jan05,
-		}
+			2: jan05
+		};
 		this.setState({
 			location: data[e.currentTarget.value],
-			year: e.currentTarget.value,
+			year: e.currentTarget.value
 		});
 	};
 
 	render() {
-		const thing = this.state.location[0];
-		console.log("thing", thing && Object.values(thing));
+		// console.log('newData', this.newData, 'testData', testData)
+		console.log("testData", testData);
 
 		return (
 			<div
@@ -113,9 +132,10 @@ class FirstMap extends Component {
 					alignItems: "center"
 				}}
 			>
-				<YearSelector yearOnChange={this.yearOnChange} year={this.state.year}/>
+				<YearSelector yearOnChange={this.yearOnChange} year={this.state.year} />
 				<DeckGL
-					layers={this.layerRendering()}
+					// layers={this._layer}
+					layers={this._layerRendering()}
 					initialViewState={INITIAL_VIEW_STATE}
 					controller={true}
 				>
