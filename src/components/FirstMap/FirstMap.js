@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { StaticMap } from "react-map-gl";
 import { H3HexagonLayer } from "@deck.gl/geo-layers";
-import { HexagonLayer } from "@deck.gl/aggregation-layers";
+// import { HexagonLayer } from "@deck.gl/aggregation-layers";
 import DeckGL from "@deck.gl/react";
 import { jan95, jan00, jan05 } from "../../dummyData/concatData";
 import testData from "../../dummyData/testDataHexNo3.json";
