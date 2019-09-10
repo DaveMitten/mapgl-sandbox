@@ -121,8 +121,6 @@ class FirstMap extends Component {
 	};
 
 	render() {
-		console.log("testData", testData);
-
 		return (
 			<div
 				style={{
