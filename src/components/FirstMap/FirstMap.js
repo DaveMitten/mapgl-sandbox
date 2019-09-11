@@ -112,13 +112,28 @@ class FirstMap extends Component {
 	// 	getPosition: d => d.COORDINATES
 	// });
 
+	dataStateChange = () => {
+		window.setTimeout(
+			this.setState({
+				year: jan00
+			}),
+			2000
+		);
+		window.setTimeout(
+			this.setState({
+				year: jan05
+			}),
+			8000
+		);
+	};
+
 	yearOnChange = e => {
 		const data = {
 			0: jan95,
 			1: jan00,
 			2: jan05
 		};
-		this._animate();
+		// this._animate();
 		this.setState({
 			location: data[e.currentTarget.value],
 			year: e.currentTarget.value
@@ -134,7 +149,11 @@ class FirstMap extends Component {
 					alignItems: "center"
 				}}
 			>
-				<YearSelector yearOnChange={this.yearOnChange} year={this.state.year} />
+				<YearSelector
+					yearOnChange={this.yearOnChange}
+					year={this.state.year}
+					dataStateChange={this.dataStateChange}
+				/>
 				<DeckGL
 					// layers={this._layer}
 					layers={this._layerRendering()}

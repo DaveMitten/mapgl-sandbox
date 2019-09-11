@@ -46,6 +46,7 @@ class YearSelector extends Component {
 					</label>
 				</div>
 				{`Year: ${this.date[this.props.year]}`}
+				<button style={{margin: '10px', borderRadius: '10px'}}onClick={this.props.dataStateChange}>Data Change</button>
 			</form>
 		);
 	}
