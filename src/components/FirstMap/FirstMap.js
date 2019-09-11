@@ -23,56 +23,56 @@ const INITIAL_VIEW_STATE = {
 	bearing: -27.396674584323023
 };
 
+const elevationScale = { min: 0, max: 10 };
+
 class FirstMap extends Component {
-	state = {
-		location: "",
-		year: 0
-	};
+	constructor(props) {
+		super(props);
+		this.state = {
+			location: "",
+			year: 0,
+			elevationScale: elevationScale.min
+		};
+
+		this.startAnimationTimer = null;
+		this.intervalTimer = null;
+
+		this._startAnimate = this._startAnimate.bind(this);
+		this._animateHeight = this._animateHeight.bind(this);
+	}
 
 	componentDidMount() {
 		this.setState({
 			location: jan95
 		});
+
+		this._animate();
 	}
 
-	// extractedData = () => {
-	// 	const areaDataResult = areaData.map(i => i.result);
-	// 	areaDataResult.map(i => {
-	// 		if (i === null) return console.warn("no result found");
-	// 		const h3Location = geoToH3(i.latitude, i.longitude, 12);
-	// 		const locationName = i.nuts;
-	// 		const locationDone = {[locationName]: { h3Location }};
-	// 		console.log('locationDone', locationDone)
-	// 		this.setState({
-	// 			[locationName]: { h3Location }
-	// 		});
-	// 		return locationDone;
-	// 	});
-	// };
+	_animate() {
+		this._stopAnimate();
 
-	// concatTwoObj = () => {
-	// 	const objOne = this.extractedData();
-	// 	console.log('this.extractedData()', this.extractedData())
-	// 	const objTwo = locationAvrgPrice;
-	// 	console.log('locationAvrgPrice', locationAvrgPrice)
-	// 	const finalObj = objOne.concat(objTwo);
-	// 	return console.log('finalObj', finalObj)
-	// }
-	// setPrice = () => {
-	// 	return Object.entries(locationAvrgPrice).map(
-	// 		i => {
-	// 			console.log('i', i)
-	// 			if (this.state.i) {
-	// 				const joined = this.state.i[0].concat(i[1]);
-	// 				this.setState({ [i[0]]: joined });
-	// 			}
-	// 		}
+		// wait 1.5 secs to start animation so that all data are loaded
+		this.startAnimationTimer = window.setTimeout(this._startAnimate, 3500);
+	}
 
-	// 		// this.setState({
-	// 		// 	price: { [i[0]]: i[1] }
-	// 		// })
-	// 	);
-	// };
+	_startAnimate() {
+		this.intervalTimer = window.setInterval(this._animateHeight, 20);
+	}
+
+	_stopAnimate() {
+		window.clearTimeout(this.startAnimationTimer);
+		window.clearTimeout(this.intervalTimer);
+	}
+
+	_animateHeight() {
+		if (this.state.elevationScale === elevationScale.max) {
+			this._stopAnimate();
+		} else {
+			this.setState({ elevationScale: this.state.elevationScale + 1 });
+		}
+	}
+
 	_layerRendering = () => {
 		const stateLocation = this.state.location;
 		const valuesOfState = stateLocation[0];
@@ -85,10 +85,14 @@ class FirstMap extends Component {
 				wireframe: true,
 				filled: true,
 				extruded: true,
+				elevationScale: this.state.elevationScale,
 				coverage: 50,
 				getHexagon: d => d.h3Location,
 				getFillColor: [223, 25, 149], // fluorescent pink
-				getElevation: d => d.price * 0.6
+				getElevation: d => {
+					console.log("d.price", d.price * 0.5);
+					return Number(d.price / 10);
+				}
 			})
 		];
 	};
@@ -114,6 +118,7 @@ class FirstMap extends Component {
 			1: jan00,
 			2: jan05
 		};
+		this._animate();
 		this.setState({
 			location: data[e.currentTarget.value],
 			year: e.currentTarget.value
@@ -140,6 +145,7 @@ class FirstMap extends Component {
 						reuseMaps
 						mapStyle={mapStyle}
 						MapController
+						preventStyleDiffing={true}
 						mapboxApiAccessToken={MAPBOX_TOKEN}
 					/>
 				</DeckGL>
