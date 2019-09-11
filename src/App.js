@@ -1,14 +1,13 @@
 import React from "react";
 import FirstMap from "./components/FirstMap/FirstMap";
-// import ObjectConcat from "./components/ObjectConcat/ObjectConcat";
-import PostcodeConverter from "./components/PostcodeConverter/PostcodeConverter";
+// import DataConversion from "./components/DataConversion/DataConversion";
 
 function App() {
 	return (
 		<div className="App">
 			<FirstMap />
 			{/* <ObjectConcat /> */}
-			<PostcodeConverter />
+			{/* <DataConversion /> */}
 		</div>
 	);
 }
