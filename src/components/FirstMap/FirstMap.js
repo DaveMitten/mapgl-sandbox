@@ -23,7 +23,7 @@ const INITIAL_VIEW_STATE = {
 	bearing: -27.396674584323023
 };
 
-const elevationScale = { min: 0, max: 10 };
+const elevationScale = { min: 0, max:3 };
 
 class FirstMap extends Component {
 	constructor(props) {
@@ -79,7 +79,7 @@ class FirstMap extends Component {
 		return [
 			new H3HexagonLayer({
 				id: "h3-hexagon-layer",
-				data: valuesOfState && Object.values(valuesOfState),
+				data: this.state.location && Object.values(valuesOfState),
 				pickable: true,
 				opacity: 0.15,
 				wireframe: true,
@@ -112,32 +112,55 @@ class FirstMap extends Component {
 	// 	getPosition: d => d.COORDINATES
 	// });
 
-	dataStateChange = () => {
-		window.setTimeout(
-			this.setState({
-				year: jan00
-			}),
-			2000
-		);
-		window.setTimeout(
-			this.setState({
-				year: jan05
-			}),
-			8000
-		);
-	};
+	// dataStateChange = () => {
+	// 	window.setTimeout(
+	// 		this.setState({
+	// 			year: jan00
+	// 		}),
+	// 		2000
+	// 	);
+	// 	window.setTimeout(
+	// 		this.setState({
+	// 			year: jan05
+	// 		}),
+	// 		8000
+	// 	);
+	// };
+
+	// yearOnChange = e => {
+	// 	const data = {
+	// 		0: jan95,
+	// 		1: jan00,
+	// 		2: jan05
+	// 	};
+	// 	window.setTimeout(() => {
+	// 		this.setState({
+	// 			location: data[e.currentTarget.value],
+	// 			year: e.currentTarget.value
+	// 		});
+	// 	}, 10000);
+	// };
 
 	yearOnChange = e => {
+		e.stopPropagation();
+		e.nativeEvent.stopImmediatePropagation();
 		const data = {
 			0: jan95,
 			1: jan00,
 			2: jan05
 		};
-		// this._animate();
 		this.setState({
 			location: data[e.currentTarget.value],
 			year: e.currentTarget.value
 		});
+		// window.setTimeout(
+		// 	() =>
+		// 		this.setState({
+		// 			location: data[e.currentTarget.value],
+		// 			year: e.currentTarget.value
+		// 		}),
+		// 	10000
+		// );
 	};
 
 	render() {
