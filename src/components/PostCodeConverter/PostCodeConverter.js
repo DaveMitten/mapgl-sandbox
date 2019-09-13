@@ -1,10 +1,18 @@
-import React, { Component } from "react";
-import data from "../../dummyData/useThisData.json";
+export default function getPostcodes(postcodes) {
+	const jsonified = JSON.stringify(postcodes);
+	console.log("postcodes", jsonified);
 
-class PostCodeConverter extends Component {
-	render() {
-		console.log("data", data.map(i => i.year[96]));
-		return <div></div>;
-	}
+	fetch(`https://api.postcodes.io/${jsonified}`)
+		.then(data => {
+			console.log("data from the postcode api", data);
+		})
+		.catch(error => {
+			console.log("error", error);
+		});
+
+	return null;
 }
-export default PostCodeConverter;
+
+// {
+// 	"postcodes" : ["OX49 5NU", "M32 0JG", "NE30 1DP"]
+// 	}

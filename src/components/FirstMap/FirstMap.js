@@ -5,7 +5,9 @@ import { H3HexagonLayer } from "@deck.gl/geo-layers";
 import DeckGL from "@deck.gl/react";
 import { jan95, jan00, jan05 } from "../../dummyData/concatData";
 // import testData from "../../dummyData/testDataHexNo3.json";
+import data from "../../dummyData/useThisData.json";
 import YearSelector from "../YearSelector/YearSelector";
+import getPostcodes from "../PostCodeConverter/PostCodeConverter";
 
 const MAPBOX_TOKEN =
 	"pk.eyJ1Ijoiam5hbGV4YW5kZXIxMCIsImEiOiJjaWlobnE4eGswMDFld2RtNmZxMDl3Nzc3In0.UTaIFjrs21qB1npSeliZbQ";
@@ -23,7 +25,7 @@ const INITIAL_VIEW_STATE = {
 	bearing: -27.396674584323023
 };
 
-const elevationScale = { min: 0, max:3 };
+const elevationScale = { min: 0, max: 3 };
 
 class FirstMap extends Component {
 	constructor(props) {
@@ -164,6 +166,14 @@ class FirstMap extends Component {
 	};
 
 	render() {
+		// getPostcodes(postcodesDemo);
+		console.log(
+			"data",
+			data.map(i => {
+				const postcodes = i.postcode;
+				return postcodes;
+			})
+		);
 		return (
 			<div
 				style={{
