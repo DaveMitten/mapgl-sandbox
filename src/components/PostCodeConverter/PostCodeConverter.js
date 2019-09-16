@@ -2,7 +2,11 @@ export default function getPostcodes(postcodes) {
 	const jsonified = JSON.stringify(postcodes);
 	console.log("postcodes", jsonified);
 
-	fetch(`https://api.postcodes.io/${jsonified}`)
+	fetch(`https://api.postcodes.io/${jsonified}`, {
+		"method": "GET",
+		"Access-Control-Allow-Origin": "*",
+		"Content-Type": "application/json"
+	})
 		.then(data => {
 			console.log("data from the postcode api", data);
 		})

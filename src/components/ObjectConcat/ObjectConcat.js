@@ -40,10 +40,10 @@ class ObjectConcat extends Component {
 	};
 
 	render() {
-		console.log(
-			"this.state",
-			this.state && this.state.obj.map(i => i).map(i => i)
-		);
+		// console.log(
+		// 	"this.state",
+		// 	this.state && this.state.obj.map(i => i).map(i => i)
+		// );
 
 		return <div>{this.state && JSON.stringify(this.state.obj)}</div>;
 	}

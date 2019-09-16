@@ -92,7 +92,7 @@ class FirstMap extends Component {
 				getHexagon: d => d.h3Location,
 				getFillColor: [223, 25, 149], // fluorescent pink
 				getElevation: d => {
-					console.log("d.price", d.price * 0.5);
+					// console.log("d.price", d.price * 0.5);
 					return Number(d.price / 10);
 				}
 			})
@@ -166,12 +166,11 @@ class FirstMap extends Component {
 	};
 
 	render() {
-		// getPostcodes(postcodesDemo);
 		console.log(
 			"data",
 			data.map(i => {
 				const postcodes = i.postcode;
-				return postcodes;
+				return getPostcodes(postcodes);
 			})
 		);
 		return (
