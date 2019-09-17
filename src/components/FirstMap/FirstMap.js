@@ -6,8 +6,8 @@ import DeckGL from "@deck.gl/react";
 import { jan95, jan00, jan05 } from "../../dummyData/concatData";
 // import testData from "../../dummyData/testDataHexNo3.json";
 import data from "../../dummyData/useThisData.json";
+import todaysDataPostcode from "../../dummyData/todaysDataPostcode.json";
 import YearSelector from "../YearSelector/YearSelector";
-import getPostcodes from "../PostCodeConverter/PostCodeConverter";
 
 const MAPBOX_TOKEN =
 	"pk.eyJ1Ijoiam5hbGV4YW5kZXIxMCIsImEiOiJjaWlobnE4eGswMDFld2RtNmZxMDl3Nzc3In0.UTaIFjrs21qB1npSeliZbQ";
@@ -99,35 +99,28 @@ class FirstMap extends Component {
 		];
 	};
 
-	// newData = testData;
+	dataStateChange = () => {
+		const toJan00 = () =>
+			this.setState({
+				location: jan00
+			});
+		const toJan05 = () => {
+			this.setState({
+				location: jan05
+			});
+		};
+		const toJan95 = () => {
+			this.setState({
+				location: jan95
+			});
+		};
 
-	// newData = eval(testData);
-	// _layer = new HexagonLayer({
-	// 	id: "hexagon-layer",
-	// 	data: testData,
-	// 	pickable: true,
-	// 	extruded: true,
-	// 	radius: 200,
-	// 	elevationScale: 100,
-	// 	// upperPercentile: 100,
-	// 	// getElevationValue: d =>
-	// 	getPosition: d => d.COORDINATES
-	// });
-
-	// dataStateChange = () => {
-	// 	window.setTimeout(
-	// 		this.setState({
-	// 			year: jan00
-	// 		}),
-	// 		2000
-	// 	);
-	// 	window.setTimeout(
-	// 		this.setState({
-	// 			year: jan05
-	// 		}),
-	// 		8000
-	// 	);
-	// };
+		console.log("this.state selected date change", this.state);
+		setTimeout(toJan00, setTimeout(toJan05, 2000), 2000);
+		if (this.state.location === jan05) {
+			setTimeout(toJan95, 2000);
+		}
+	};
 
 	// yearOnChange = e => {
 	// 	const data = {
@@ -164,15 +157,39 @@ class FirstMap extends Component {
 		// 	10000
 		// );
 	};
+	// addLatLon = (location, latLon) => {
+	// 	return location.map(compiledDataObj => {
+	// 		const objectsWithSameLocation = latLon.filter(dataObj => {
+	// 			return dataObj.postcode === compiledDataObj.postcode;
+	// 		});
+
+	// 		objectsWithSameLocation.map(obj => {
+	//here we want to match the postcode of the object we're running through
+	// so its like
+	// 		compiledDataObj.postcode[obj.postcode]
+
+	// return console.log('location.postcode', location.map(i => i.postcode), 'obj.postcode', obj.postcode)
+	// 		});
+	// 	});
+	// };
+
+	addLatLon = (location, latLon) => {
+		const result = location.map(e => {
+			const coords = latLon.find(ee => ee.postcode === e.postcode);
+
+			return Object.assign(e, {
+				longitude: coords["longitude"],
+				latitude: coords["latitude"]
+			});
+		});
+		
+		return result;
+	};
 
 	render() {
-		console.log(
-			"data",
-			data.map(i => {
-				const postcodes = i.postcode;
-				return getPostcodes(postcodes);
-			})
-		);
+		const doIt = this.addLatLon(data, todaysDataPostcode);
+		console.log('doIt', doIt)
+
 		return (
 			<div
 				style={{
@@ -181,7 +198,8 @@ class FirstMap extends Component {
 					alignItems: "center"
 				}}
 			>
-				<YearSelector
+				{JSON.stringify(doIt)}
+				{/* <YearSelector
 					yearOnChange={this.yearOnChange}
 					year={this.state.year}
 					dataStateChange={this.dataStateChange}
@@ -199,7 +217,7 @@ class FirstMap extends Component {
 						preventStyleDiffing={true}
 						mapboxApiAccessToken={MAPBOX_TOKEN}
 					/>
-				</DeckGL>
+				</DeckGL> */}
 			</div>
 		);
 	}

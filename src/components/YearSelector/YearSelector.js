@@ -10,44 +10,56 @@ class YearSelector extends Component {
 	};
 	render() {
 		return (
-			<form className="yearSelector">
-				<div>
-					<label>
-						<input
-							type="radio"
-							name="dateSelect"
-							value="0"
-							checked={this.props.year === "0"}
-							onChange={this.props.yearOnChange}
-						/>
-						Jan 95
-					</label>
-				</div>
-				<div>
-					<label>
-						<input
-							type="radio"
-							name="dateSelect"
-							value="1"
-							onChange={this.props.yearOnChange}
-						/>
-						Jan 00
-					</label>
-				</div>
-				<div>
-					<label>
-						<input
-							type="radio"
-							name="dateSelect"
-							value="2"
-							onChange={this.props.yearOnChange}
-						/>
-						Jan 05
-					</label>
-				</div>
-				{`Year: ${this.date[this.props.year]}`}
-				<button style={{margin: '10px', borderRadius: '10px'}}onClick={this.props.dataStateChange}>Data Change</button>
-			</form>
+			<>
+				<form className="yearSelector">
+					<div>
+						<label>
+							<input
+								type="radio"
+								name="dateSelect"
+								value="0"
+								checked={this.props.year === "0"}
+								onChange={this.props.yearOnChange}
+							/>
+							Jan 95
+						</label>
+					</div>
+					<div>
+						<label>
+							<input
+								type="radio"
+								name="dateSelect"
+								value="1"
+								onChange={this.props.yearOnChange}
+							/>
+							Jan 00
+						</label>
+					</div>
+					<div>
+						<label>
+							<input
+								type="radio"
+								name="dateSelect"
+								value="2"
+								onChange={this.props.yearOnChange}
+							/>
+							Jan 05
+						</label>
+					</div>
+					{/* {`Year: ${this.date[this.props.year]}`} */}
+					{/* <button
+					style={{ margin: "10px", borderRadius: "10px" }}
+					onClick={this.props.dataStateChange}
+				> */}
+				</form>
+				<button
+				className="yearSelector"
+					style={{ margin: "10px", borderRadius: "10px", background: 'white' }}
+					onClick={this.props.dataStateChange}
+				>
+					Data Change
+				</button>
+			</>
 		);
 	}
 }
