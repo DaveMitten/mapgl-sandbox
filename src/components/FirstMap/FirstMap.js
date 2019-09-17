@@ -33,7 +33,8 @@ class FirstMap extends Component {
 		this.state = {
 			location: "",
 			year: 0,
-			elevationScale: elevationScale.min
+			elevationScale: elevationScale.min,
+			fire: false
 		};
 
 		this.startAnimationTimer = null;
@@ -47,8 +48,13 @@ class FirstMap extends Component {
 		this.setState({
 			location: jan95
 		});
+		const conditionalFire = () =>
+			this.setState({
+				fire: true
+			});
+		setTimeout(conditionalFire, 5000);
 
-		this._animate();
+		// this._animate();
 	}
 
 	_animate() {
@@ -75,7 +81,8 @@ class FirstMap extends Component {
 		}
 	}
 
-	_layerRendering = () => {
+	_layerRendering = e => {
+		const animateHeight = this.state.fire;
 		const stateLocation = this.state.location;
 		const valuesOfState = stateLocation[0];
 		return [
@@ -87,40 +94,43 @@ class FirstMap extends Component {
 				wireframe: true,
 				filled: true,
 				extruded: true,
-				elevationScale: this.state.elevationScale,
+				// elevationScale: this.state.elevationScale,
+				elevationScale: 6,
 				coverage: 50,
 				getHexagon: d => d.h3Location,
 				getFillColor: [223, 25, 149], // fluorescent pink
-				getElevation: d => {
-					// console.log("d.price", d.price * 0.5);
-					return Number(d.price / 10);
+				getElevation: !animateHeight ? 0 : d => Number(d.price),
+				transitions: {
+					// transition with a duration of 3000ms
+					getElevation: 3000,
+					transitionEasing: "Ease-In-Cubic"
 				}
 			})
 		];
 	};
 
-	dataStateChange = () => {
-		const toJan00 = () =>
-			this.setState({
-				location: jan00
-			});
-		const toJan05 = () => {
-			this.setState({
-				location: jan05
-			});
-		};
-		const toJan95 = () => {
-			this.setState({
-				location: jan95
-			});
-		};
+	// dataStateChange = () => {
+	// 	const toJan00 = () =>
+	// 		this.setState({
+	// 			location: jan00
+	// 		});
+	// 	const toJan05 = () => {
+	// 		this.setState({
+	// 			location: jan05
+	// 		});
+	// 	};
+	// 	const toJan95 = () => {
+	// 		this.setState({
+	// 			location: jan95
+	// 		});
+	// 	};
 
-		console.log("this.state selected date change", this.state);
-		setTimeout(toJan00, setTimeout(toJan05, 2000), 2000);
-		if (this.state.location === jan05) {
-			setTimeout(toJan95, 2000);
-		}
-	};
+	// 	console.log("this.state selected date change", this.state);
+	// 	setTimeout(toJan00, setTimeout(toJan05, 2000), 2000);
+	// 	if (this.state.location === jan05) {
+	// 		setTimeout(toJan95, 2000);
+	// 	}
+	// };
 
 	// yearOnChange = e => {
 	// 	const data = {
@@ -173,22 +183,23 @@ class FirstMap extends Component {
 	// 	});
 	// };
 
-	addLatLon = (location, latLon) => {
-		const result = location.map(e => {
-			const coords = latLon.find(ee => ee.postcode === e.postcode);
+	// addLatLon = (location, latLon) => {
+	// 	const result = location.map(e => {
+	// 		const coords = latLon.find(ee => ee.postcode === e.postcode);
 
-			return Object.assign(e, {
-				longitude: coords["longitude"],
-				latitude: coords["latitude"]
-			});
-		});
-		
-		return result;
-	};
+	// 		return Object.assign(e, {
+	// 			longitude: coords["longitude"],
+	// 			latitude: coords["latitude"]
+	// 		});
+	// 	});
+
+	// 	return result;
+	// };
 
 	render() {
-		const doIt = this.addLatLon(data, todaysDataPostcode);
-		console.log('doIt', doIt)
+		// const doIt = this.addLatLon(data, todaysDataPostcode);
+		// console.log("doIt", doIt);
+		console.log("this.state", this.state.fire);
 
 		return (
 			<div
@@ -198,8 +209,8 @@ class FirstMap extends Component {
 					alignItems: "center"
 				}}
 			>
-				{JSON.stringify(doIt)}
-				{/* <YearSelector
+				{/* {JSON.stringify(doIt)} */}
+				<YearSelector
 					yearOnChange={this.yearOnChange}
 					year={this.state.year}
 					dataStateChange={this.dataStateChange}
@@ -217,7 +228,7 @@ class FirstMap extends Component {
 						preventStyleDiffing={true}
 						mapboxApiAccessToken={MAPBOX_TOKEN}
 					/>
-				</DeckGL> */}
+				</DeckGL>
 			</div>
 		);
 	}
