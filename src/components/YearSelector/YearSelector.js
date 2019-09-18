@@ -52,13 +52,13 @@ class YearSelector extends Component {
 					onClick={this.props.dataStateChange}
 				> */}
 				</form>
-				<button
+				{/* <button
 				className="yearSelector"
 					style={{ margin: "10px", borderRadius: "10px", background: 'white' }}
 					onClick={this.props.dataStateChange}
 				>
 					Data Change
-				</button>
+				</button> */}
 			</>
 		);
 	}

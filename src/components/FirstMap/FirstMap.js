@@ -25,7 +25,7 @@ const INITIAL_VIEW_STATE = {
 	bearing: -27.396674584323023
 };
 
-const elevationScale = { min: 0, max: 3 };
+const elevationScale = { min: 0, max: 100 };
 
 class FirstMap extends Component {
 	constructor(props) {
@@ -34,7 +34,6 @@ class FirstMap extends Component {
 			location: "",
 			year: 0,
 			elevationScale: elevationScale.min,
-			fire: false
 		};
 
 		this.startAnimationTimer = null;
@@ -48,24 +47,41 @@ class FirstMap extends Component {
 		this.setState({
 			location: jan95
 		});
-		const conditionalFire = () =>
-			this.setState({
-				fire: true
-			});
-		setTimeout(conditionalFire, 5000);
-
-		// this._animate();
+		this._animate();
 	}
+	// deprecated method, looking at componentGetDerivedStateFromProps
+	// need to wrap thi/turn it into a highger order component so i can use the outer layer to require the data and then pass it down as props.
+	// little unsure if this is correct as it will depend on state unless i initialise the state with props passed down from the wrapper, but then that argues whether i would need to
+	// do the wrapper in the first place as i could just start the state with data being passed to it already
+	UNSAFE_componentWillReceiveProps(nextProps) {
+		// if new data is passed through it will initiate the re-redndering of the data and the animation based on the elevation scale, which currently animates correctly upon load
+		if (
+			nextProps.data &&
+			this.props.data &&
+			nextProps.data.length !== this.props.data.length
+		) {
+			this._animate();
+		}
+	}
+	//   {---------------------- NEW METHOD FOR componentWillReceiveProps -----------------------------}
+	// static getDerivedStateFromProps(nextProps, prevState) {
+	// 	if (nextProps.total !== prevState.total) {
+	// 	  return ({ total: nextProps.total }) // <- this is setState equivalent
+	// 	}
+	// 	etc...
+	//   }
+	//   {---------------------- NEW METHOD FOR componentWillReceiveProps -----------------------------}
 
+	// Would be good in the fianl versio nto extract these to helper functions/animations to clean up the code{ -------_-_-_-___--_-_-_---_-________-____--__-___-_-____---
 	_animate() {
 		this._stopAnimate();
 
-		// wait 1.5 secs to start animation so that all data are loaded
-		this.startAnimationTimer = window.setTimeout(this._startAnimate, 3500);
+		// wait 7 secs to start animation so that all data are loaded
+		this.startAnimationTimer = window.setTimeout(this._startAnimate, 7000);
 	}
 
 	_startAnimate() {
-		this.intervalTimer = window.setInterval(this._animateHeight, 20);
+		this.intervalTimer = window.setInterval(this._animateHeight, 10);
 	}
 
 	_stopAnimate() {
@@ -80,9 +96,9 @@ class FirstMap extends Component {
 			this.setState({ elevationScale: this.state.elevationScale + 1 });
 		}
 	}
+	// ---------------------------------________------____---------___---___---_________----____-_-_-_-_-_-_--_-_-_-_ }
 
 	_layerRendering = e => {
-		const animateHeight = this.state.fire;
 		const stateLocation = this.state.location;
 		const valuesOfState = stateLocation[0];
 		return [
@@ -94,17 +110,11 @@ class FirstMap extends Component {
 				wireframe: true,
 				filled: true,
 				extruded: true,
-				// elevationScale: this.state.elevationScale,
-				elevationScale: 6,
+				elevationScale: this.state.elevationScale,
 				coverage: 50,
 				getHexagon: d => d.h3Location,
 				getFillColor: [223, 25, 149], // fluorescent pink
-				getElevation: !animateHeight ? 0 : d => Number(d.price),
-				transitions: {
-					// transition with a duration of 3000ms
-					getElevation: 3000,
-					transitionEasing: "Ease-In-Cubic"
-				}
+				getElevation: d => Number(d.price / 100)
 			})
 		];
 	};
@@ -156,8 +166,14 @@ class FirstMap extends Component {
 		};
 		this.setState({
 			location: data[e.currentTarget.value],
-			year: e.currentTarget.value
+			year: e.currentTarget.value,
+			elevationScale: this.state.elevationScale - 40
 		});
+		this._stopAnimate();
+		// wait 7 secs to start animation so that all data are loaded
+		this._startAnimate()
+
+
 		// window.setTimeout(
 		// 	() =>
 		// 		this.setState({
