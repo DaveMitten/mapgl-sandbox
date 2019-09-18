@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import { StaticMap } from "react-map-gl";
 import { H3HexagonLayer } from "@deck.gl/geo-layers";
-// import { HexagonLayer } from "@deck.gl/aggregation-layers";
 import DeckGL from "@deck.gl/react";
-import { jan95, jan00, jan05 } from "../../dummyData/concatData";
+// import { jan95, jan00, jan05 } from "../../dummyData/concatData";
+import { geoToH3 } from "h3-js";
 // import testData from "../../dummyData/testDataHexNo3.json";
 import data from "../../dummyData/useThisData.json";
 import todaysDataPostcode from "../../dummyData/todaysDataPostcode.json";
 import YearSelector from "../YearSelector/YearSelector";
+import dataSet from "../finalDataSet/finalDataSet.json";
 
 const MAPBOX_TOKEN =
 	"pk.eyJ1Ijoiam5hbGV4YW5kZXIxMCIsImEiOiJjaWlobnE4eGswMDFld2RtNmZxMDl3Nzc3In0.UTaIFjrs21qB1npSeliZbQ";
@@ -31,9 +32,9 @@ class FirstMap extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			location: "",
-			year: 0,
-			elevationScale: elevationScale.min,
+			locationData: "",
+			year: 95,
+			elevationScale: elevationScale.min
 		};
 
 		this.startAnimationTimer = null;
@@ -45,8 +46,9 @@ class FirstMap extends Component {
 
 	componentDidMount() {
 		this.setState({
-			location: jan95
+			locationData: dataSet
 		});
+		this._layerRendering();
 		this._animate();
 	}
 	// deprecated method, looking at componentGetDerivedStateFromProps
@@ -98,13 +100,20 @@ class FirstMap extends Component {
 	}
 	// ---------------------------------________------____---------___---___---_________----____-_-_-_-_-_-_--_-_-_-_ }
 
-	_layerRendering = e => {
-		const stateLocation = this.state.location;
-		const valuesOfState = stateLocation[0];
+	_layerRendering = () => {
+		const newobj =
+			this.state.locationData &&
+			this.state.locationData.map(i => {
+				return {
+					longitude: i.longitude,
+					latitude: i.latitude,
+					price: i.year[this.state.year]
+				};
+			});
 		return [
 			new H3HexagonLayer({
 				id: "h3-hexagon-layer",
-				data: this.state.location && Object.values(valuesOfState),
+				data: this.state.locationData && newobj,
 				pickable: true,
 				opacity: 0.15,
 				wireframe: true,
@@ -112,12 +121,72 @@ class FirstMap extends Component {
 				extruded: true,
 				elevationScale: this.state.elevationScale,
 				coverage: 50,
-				getHexagon: d => d.h3Location,
+				getHexagon: d => {
+					let local = geoToH3(d.latitude, d.longitude, 12);
+					return local;
+				},
 				getFillColor: [223, 25, 149], // fluorescent pink
-				getElevation: d => Number(d.price / 100)
+				getElevation: d => this.state.locationData && Number(d.price / 500)
 			})
 		];
+
+		// new H3HexagonLayer({
+		// 	id: "h3-hexagon-layer",
+		// 	data: this.state.location && Object.values(valuesOfState),
+		// 	pickable: true,
+		// 	opacity: 0.15,
+		// 	wireframe: true,
+		// 	filled: true,
+		// 	extruded: true,
+		// 	elevationScale: this.state.elevationScale,
+		// 	coverage: 50,
+		// 	getHexagon: d => d.h3Location,
+		// 	getFillColor: [223, 25, 149], // fluorescent pink
+		// 	getElevation: d => Number(d.price / 100)
+		// })
+		// 	new HexagonLayer({
+		// 		id: "hexagon-layer",
+		// 		data: this.state.locationData && this.state.locationData,
+		// 		pickable: true,
+		// 		opacity: 0.15,
+		// 		wireframe: true,
+		// 		filled: true,
+		// 		extruded: true,
+		// 		elevationScale: this.state.elevationScale,
+		// 		coverage: 5,
+		// 		//works for lat/lon they dont change
+		// 		getPosition: d => [d.longitude, d.latitude],
+		// 		// getFillColor: [223, 25, 149], // fluorescent pink
+		// 		// colorRange: [223, 25, 149], // fluorescent pink
+		// 		// data needs to change depending on the year
+		// 		getElevation: d =>
+		// 		Number(d.year[this.state.year && this.state.year])
+		// 		// Number(d.price / 100)
+		// 	})
+		// ];
 	};
+
+	// _renderLayers() {
+	// 	const {
+	// 		data,
+	// 		radius = 1000,
+	// 		upperPercentile = 100,
+	// 		coverage = 1
+	// 	} = this.props;
+
+	// 	return [
+	// 		new HexagonLayer({
+	// 			// colorRange,
+	// 			elevationRange: [0, 3000],
+	// 			elevationScale: this.state.elevationScale,
+	// 			extruded: true,
+	// 			getPosition: d => d
+
+	// 			// radius,
+	// 			// material
+	// 		})
+	// 	];
+	// }
 
 	// dataStateChange = () => {
 	// 	const toJan00 = () =>
@@ -141,47 +210,15 @@ class FirstMap extends Component {
 	// 		setTimeout(toJan95, 2000);
 	// 	}
 	// };
-
-	// yearOnChange = e => {
-	// 	const data = {
-	// 		0: jan95,
-	// 		1: jan00,
-	// 		2: jan05
-	// 	};
-	// 	window.setTimeout(() => {
-	// 		this.setState({
-	// 			location: data[e.currentTarget.value],
-	// 			year: e.currentTarget.value
-	// 		});
-	// 	}, 10000);
-	// };
-
 	yearOnChange = e => {
 		e.stopPropagation();
 		e.nativeEvent.stopImmediatePropagation();
-		const data = {
-			0: jan95,
-			1: jan00,
-			2: jan05
-		};
 		this.setState({
-			location: data[e.currentTarget.value],
 			year: e.currentTarget.value,
 			elevationScale: this.state.elevationScale - 40
 		});
 		this._stopAnimate();
-		// wait 7 secs to start animation so that all data are loaded
-		this._startAnimate()
-
-
-		// window.setTimeout(
-		// 	() =>
-		// 		this.setState({
-		// 			location: data[e.currentTarget.value],
-		// 			year: e.currentTarget.value
-		// 		}),
-		// 	10000
-		// );
+		this._startAnimate();
 	};
 	// addLatLon = (location, latLon) => {
 	// 	return location.map(compiledDataObj => {
@@ -213,10 +250,6 @@ class FirstMap extends Component {
 	// };
 
 	render() {
-		// const doIt = this.addLatLon(data, todaysDataPostcode);
-		// console.log("doIt", doIt);
-		console.log("this.state", this.state.fire);
-
 		return (
 			<div
 				style={{
@@ -225,11 +258,11 @@ class FirstMap extends Component {
 					alignItems: "center"
 				}}
 			>
-				{/* {JSON.stringify(doIt)} */}
 				<YearSelector
 					yearOnChange={this.yearOnChange}
 					year={this.state.year}
 					dataStateChange={this.dataStateChange}
+					dataSet={dataSet}
 				/>
 				<DeckGL
 					// layers={this._layer}

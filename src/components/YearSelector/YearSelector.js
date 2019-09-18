@@ -1,18 +1,27 @@
 import React, { Component } from "react";
-
 import "./YearSelector.css";
 
 class YearSelector extends Component {
-	date = {
-		0: "Jan 95",
-		1: "Jan 00",
-		2: "Jan 05"
-	};
+	sortAndLabel = i => {
+		const addLabel = (i.startsWith("9") ? "19" : "20") + i;
+		return addLabel;
+	}
 	render() {
 		return (
 			<>
 				<form className="yearSelector">
-					<div>
+					<select onChange={this.props.yearOnChange}>
+						{this.props.dataSet &&
+							Object.keys(this.props.dataSet[0]["year"]).map(i => (
+								<option value={i}>
+									{this.sortAndLabel(i)}
+								</option>
+							))}
+
+					</select>
+					{/* {`Year: ${this.props.year}`} */}
+
+					{/* <div>
 						<label>
 							<input
 								type="radio"
@@ -45,7 +54,7 @@ class YearSelector extends Component {
 							/>
 							Jan 05
 						</label>
-					</div>
+					</div> */}
 					{/* {`Year: ${this.date[this.props.year]}`} */}
 					{/* <button
 					style={{ margin: "10px", borderRadius: "10px" }}
