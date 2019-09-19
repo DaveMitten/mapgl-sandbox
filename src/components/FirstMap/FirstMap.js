@@ -34,7 +34,8 @@ class FirstMap extends Component {
 		this.state = {
 			locationData: "",
 			year: 95,
-			elevationScale: elevationScale.min
+			elevationScale: elevationScale.min,
+			yearArr: []
 		};
 
 		this.startAnimationTimer = null;
@@ -45,8 +46,11 @@ class FirstMap extends Component {
 	}
 
 	componentDidMount() {
+		const yearArrSorted = dataSet && this.playFunction();
+
 		this.setState({
-			locationData: dataSet
+			locationData: dataSet,
+			yearArr: yearArrSorted
 		});
 		this._layerRendering();
 		this._animate();
@@ -220,6 +224,15 @@ class FirstMap extends Component {
 		this._stopAnimate();
 		this._startAnimate();
 	};
+
+	playFunction = () => {
+		//i know this is unreadable, but i wanted to see how simple i could go.
+		return dataSet.map(i => {
+			return Object.keys(Object.values(i)[2])
+				.map(i => (i.startsWith(9) ? 19 + i : 20 + i))
+				.sort();
+		})[0];
+	};
 	// addLatLon = (location, latLon) => {
 	// 	return location.map(compiledDataObj => {
 	// 		const objectsWithSameLocation = latLon.filter(dataObj => {
@@ -263,6 +276,7 @@ class FirstMap extends Component {
 					year={this.state.year}
 					dataStateChange={this.dataStateChange}
 					dataSet={dataSet}
+					years={this.state.yearArr && this.state.yearArr}
 				/>
 				<DeckGL
 					// layers={this._layer}
