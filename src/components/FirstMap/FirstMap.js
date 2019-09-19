@@ -2,11 +2,7 @@ import React, { Component } from "react";
 import { StaticMap } from "react-map-gl";
 import { H3HexagonLayer } from "@deck.gl/geo-layers";
 import DeckGL from "@deck.gl/react";
-// import { jan95, jan00, jan05 } from "../../dummyData/concatData";
 import { geoToH3 } from "h3-js";
-// import testData from "../../dummyData/testDataHexNo3.json";
-import data from "../../dummyData/useThisData.json";
-import todaysDataPostcode from "../../dummyData/todaysDataPostcode.json";
 import YearSelector from "../YearSelector/YearSelector";
 import dataSet from "../finalDataSet/finalDataSet.json";
 
@@ -133,87 +129,8 @@ class FirstMap extends Component {
 				getElevation: d => this.state.locationData && Number(d.price / 500)
 			})
 		];
-
-		// new H3HexagonLayer({
-		// 	id: "h3-hexagon-layer",
-		// 	data: this.state.location && Object.values(valuesOfState),
-		// 	pickable: true,
-		// 	opacity: 0.15,
-		// 	wireframe: true,
-		// 	filled: true,
-		// 	extruded: true,
-		// 	elevationScale: this.state.elevationScale,
-		// 	coverage: 50,
-		// 	getHexagon: d => d.h3Location,
-		// 	getFillColor: [223, 25, 149], // fluorescent pink
-		// 	getElevation: d => Number(d.price / 100)
-		// })
-		// 	new HexagonLayer({
-		// 		id: "hexagon-layer",
-		// 		data: this.state.locationData && this.state.locationData,
-		// 		pickable: true,
-		// 		opacity: 0.15,
-		// 		wireframe: true,
-		// 		filled: true,
-		// 		extruded: true,
-		// 		elevationScale: this.state.elevationScale,
-		// 		coverage: 5,
-		// 		//works for lat/lon they dont change
-		// 		getPosition: d => [d.longitude, d.latitude],
-		// 		// getFillColor: [223, 25, 149], // fluorescent pink
-		// 		// colorRange: [223, 25, 149], // fluorescent pink
-		// 		// data needs to change depending on the year
-		// 		getElevation: d =>
-		// 		Number(d.year[this.state.year && this.state.year])
-		// 		// Number(d.price / 100)
-		// 	})
-		// ];
 	};
 
-	// _renderLayers() {
-	// 	const {
-	// 		data,
-	// 		radius = 1000,
-	// 		upperPercentile = 100,
-	// 		coverage = 1
-	// 	} = this.props;
-
-	// 	return [
-	// 		new HexagonLayer({
-	// 			// colorRange,
-	// 			elevationRange: [0, 3000],
-	// 			elevationScale: this.state.elevationScale,
-	// 			extruded: true,
-	// 			getPosition: d => d
-
-	// 			// radius,
-	// 			// material
-	// 		})
-	// 	];
-	// }
-
-	// dataStateChange = () => {
-	// 	const toJan00 = () =>
-	// 		this.setState({
-	// 			location: jan00
-	// 		});
-	// 	const toJan05 = () => {
-	// 		this.setState({
-	// 			location: jan05
-	// 		});
-	// 	};
-	// 	const toJan95 = () => {
-	// 		this.setState({
-	// 			location: jan95
-	// 		});
-	// 	};
-
-	// 	console.log("this.state selected date change", this.state);
-	// 	setTimeout(toJan00, setTimeout(toJan05, 2000), 2000);
-	// 	if (this.state.location === jan05) {
-	// 		setTimeout(toJan95, 2000);
-	// 	}
-	// };
 	yearOnChange = e => {
 		e.stopPropagation();
 		e.nativeEvent.stopImmediatePropagation();
@@ -225,42 +142,13 @@ class FirstMap extends Component {
 		this._startAnimate();
 	};
 
-	playFunction = () => {
-		//i know this is unreadable, but i wanted to see how simple i could go.
-		return dataSet.map(i => {
+	playFunction = () =>
+		dataSet.map(i => {
 			return Object.keys(Object.values(i)[2])
 				.map(i => (i.startsWith(9) ? 19 + i : 20 + i))
 				.sort();
 		})[0];
-	};
-	// addLatLon = (location, latLon) => {
-	// 	return location.map(compiledDataObj => {
-	// 		const objectsWithSameLocation = latLon.filter(dataObj => {
-	// 			return dataObj.postcode === compiledDataObj.postcode;
-	// 		});
 
-	// 		objectsWithSameLocation.map(obj => {
-	//here we want to match the postcode of the object we're running through
-	// so its like
-	// 		compiledDataObj.postcode[obj.postcode]
-
-	// return console.log('location.postcode', location.map(i => i.postcode), 'obj.postcode', obj.postcode)
-	// 		});
-	// 	});
-	// };
-
-	// addLatLon = (location, latLon) => {
-	// 	const result = location.map(e => {
-	// 		const coords = latLon.find(ee => ee.postcode === e.postcode);
-
-	// 		return Object.assign(e, {
-	// 			longitude: coords["longitude"],
-	// 			latitude: coords["latitude"]
-	// 		});
-	// 	});
-
-	// 	return result;
-	// };
 
 	render() {
 		return (
