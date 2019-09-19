@@ -4,6 +4,7 @@ import { H3HexagonLayer } from "@deck.gl/geo-layers";
 import DeckGL from "@deck.gl/react";
 import { geoToH3 } from "h3-js";
 import YearSelector from "../YearSelector/YearSelector";
+// import {_animate, _startAnimate, _stopAnimate, _animateHeight} from '../helpers/helperFunctions'
 import dataSet from "../finalDataSet/finalDataSet.json";
 
 const MAPBOX_TOKEN =
@@ -42,8 +43,7 @@ class FirstMap extends Component {
 	}
 
 	componentDidMount() {
-		const yearArrSorted = dataSet && this.playFunction();
-
+		const yearArrSorted = dataSet && this.sortYears();
 		this.setState({
 			locationData: dataSet,
 			yearArr: yearArrSorted
@@ -82,6 +82,9 @@ class FirstMap extends Component {
 		this.startAnimationTimer = window.setTimeout(this._startAnimate, 7000);
 	}
 
+	// _startAnimate() {
+	// 	this.intervalTimer = window.setInterval(this._animateHeight, 10);
+	// }
 	_startAnimate() {
 		this.intervalTimer = window.setInterval(this._animateHeight, 10);
 	}
@@ -142,13 +145,31 @@ class FirstMap extends Component {
 		this._startAnimate();
 	};
 
-	playFunction = () =>
+	sortYears = () =>
 		dataSet.map(i => {
 			return Object.keys(Object.values(i)[2])
 				.map(i => (i.startsWith(9) ? 19 + i : 20 + i))
 				.sort();
 		})[0];
 
+	cycleYearData = () => {
+		this.state.yearArr
+		// first step is a counter funtion
+		//second step is with each iteration to setState with new iteration of the year array
+		const newYear = () => {
+			this.state.yearArr
+
+		}
+		this.setState({
+			year: newYear
+		})
+		// setState by cling through above state and each time add ++1 to the key position , array position so that it iterates through each year every 3 seconds? 
+		// it will need to remember previous iteration? maybe a counter? 
+
+
+
+
+	};
 
 	render() {
 		return (
