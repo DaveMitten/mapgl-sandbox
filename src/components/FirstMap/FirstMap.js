@@ -50,6 +50,7 @@ class FirstMap extends Component {
 		});
 		this._layerRendering();
 		this._animate();
+		// this.cycleYearData();
 	}
 	// deprecated method, looking at componentGetDerivedStateFromProps
 	// need to wrap thi/turn it into a highger order component so i can use the outer layer to require the data and then pass it down as props.
@@ -79,7 +80,7 @@ class FirstMap extends Component {
 		this._stopAnimate();
 
 		// wait 7 secs to start animation so that all data are loaded
-		this.startAnimationTimer = window.setTimeout(this._startAnimate, 7000);
+		this.startAnimationTimer = window.setTimeout(this._startAnimate, 6000);
 	}
 
 	// _startAnimate() {
@@ -102,7 +103,6 @@ class FirstMap extends Component {
 		}
 	}
 	// ---------------------------------________------____---------___---___---_________----____-_-_-_-_-_-_--_-_-_-_ }
-
 	_layerRendering = () => {
 		const newobj =
 			this.state.locationData &&
@@ -129,7 +129,14 @@ class FirstMap extends Component {
 					return local;
 				},
 				getFillColor: [223, 25, 149], // fluorescent pink
-				getElevation: d => this.state.locationData && Number(d.price / 500)
+				getElevation: d => this.state.locationData && Number(d.price / 500),
+				transitions: {
+					getElevation: {
+						duration: 3000,
+						// easing: easeCubicInOut,
+						enter: value => [value[0], value[1], value[2], 0]
+					}
+				}
 			})
 		];
 	};
@@ -139,10 +146,10 @@ class FirstMap extends Component {
 		e.nativeEvent.stopImmediatePropagation();
 		this.setState({
 			year: e.currentTarget.value,
-			elevationScale: this.state.elevationScale - 40
+			// elevationScale: this.state.elevationScale - 30
 		});
-		this._stopAnimate();
-		this._startAnimate();
+		// this._stopAnimate();
+		// this._startAnimate();
 	};
 
 	sortYears = () =>
@@ -152,23 +159,53 @@ class FirstMap extends Component {
 				.sort();
 		})[0];
 
+	// getPercentageChange = (oldNumber, newNumber) => {
+	// 	const decreaseValue = oldNumber - newNumber;
+	// 	return (decreaseValue / oldNumber) * 100;
+	// };
+
+	// findNewHeight = () => {
+	// 	return this.state.locationData.map(i => i.year[this.state.year])[0];
+	// };
+
 	cycleYearData = () => {
-		this.state.yearArr
-		// first step is a counter funtion
-		//second step is with each iteration to setState with new iteration of the year array
-		const newYear = () => {
-			this.state.yearArr
+		let i = 0;
+		const myLoop = () => {
+			// const deduct = () => {
+			// 	const result = this.getPercentageChange(
+			// 		this.findNewHeight(),
+			// 		this.state.yearArr[0]
+			// 	);
+			// 	this.setState({
+			// 		elevationScale: this.state.elevationScale - 40
+			// 	});
+			// 	this._stopAnimate();
+			// 	this._startAnimate();
+			// };
+			setTimeout(() => {
+				i++;
+				if (i < this.state.yearArr.length) {
+					this.setState(state => ({
+						year: state.yearArr[i].slice(2),
+						elevationScale: state.elevationScale - 30
+					}));
+					myLoop();
+				}
+			}, 2000);
+		};
+		myLoop();
+	};
 
-		}
-		this.setState({
-			year: newYear
-		})
-		// setState by cling through above state and each time add ++1 to the key position , array position so that it iterates through each year every 3 seconds? 
-		// it will need to remember previous iteration? maybe a counter? 
+	// getPercentageChange = (oldNumber, newNumber) => {
+	// 	const decreaseValue = oldNumber - newNumber;
+	// 	console.log("decreaseValue", decreaseValue);
+	// 	const result = (decreaseValue / oldNumber) * 100;
+	// 	console.log("result", result);
+	// 	return result;
+	// };
 
-
-
-
+	findNewHeight = () => {
+		return this.state.locationData.map(i => i.year[this.state.year])[0];
 	};
 
 	render() {
@@ -183,6 +220,7 @@ class FirstMap extends Component {
 				<YearSelector
 					yearOnChange={this.yearOnChange}
 					year={this.state.year}
+					cycleYearData={this.cycleYearData}
 					dataStateChange={this.dataStateChange}
 					dataSet={dataSet}
 					years={this.state.yearArr && this.state.yearArr}

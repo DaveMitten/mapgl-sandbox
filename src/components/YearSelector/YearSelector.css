@@ -14,3 +14,13 @@
     border-radius: 3px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
   }
+
+  .playButton {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 81px;
+    z-index: 1;
+    border-radius: 5px;
+    left: 12px;
+  }
