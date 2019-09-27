@@ -81,7 +81,7 @@ class FirstMap extends Component {
     }
 
     _startAnimate() {
-        this.intervalTimer = window.setInterval(this._animateHeight, 50);
+        this.intervalTimer = window.setInterval(this._animateHeight, 75);
     }
 
     _stopAnimate() {
